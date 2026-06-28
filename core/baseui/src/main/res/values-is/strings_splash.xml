@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Að undirbúa rýmið þitt…</string>
+  <string name="splash_waiting_for_internet">Bíður eftir tengingu svo spjallið þitt geti hlaðist inn án vandkvæða.</string>
+  <string name="splash_waiting_for_consent">Virkja stillingarnar þínar svo allt opnist á réttan hátt.</string>
+  <string name="splash_countdown_running">Er að hlaða inn síðustu hlutunum fyrir þig…</string>
+  <string name="splash_ad_loaded">Næstum því búið. Undirbýr næsta skjá.</string>
+  <string name="splash_ads_unavailable">Ég er að fara áfram og klára uppsetninguna fyrir þig.</string>
+  <string name="splash_showing_ad">Stutt stopp á meðan ég klára að hlaða.</string>
+  <string name="splash_ready_to_enter_app">Tilbúinn. Tekur þig inn núna.</string>
+  <string name="splash_countdown_early">Að koma með efnið þitt…</string>
+  <string name="splash_countdown_mid">Enn að hlaða í bakgrunni. Næstum því komið.</string>
+  <string name="splash_countdown_late">Búin með erfiðisvinnuna. Opna núna…</string>
+</resources>

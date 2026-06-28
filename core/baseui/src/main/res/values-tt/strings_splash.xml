@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Урын әзерләнә. . .</string>
+  <string name="splash_waiting_for_internet">Чатыгыз шома йөкләнсен өчен, тоташу көтелә.</string>
+  <string name="splash_waiting_for_consent">Көйләүләрне куллану, барысы да дөрес юл белән ачылсын өчен.</string>
+  <string name="splash_countdown_running">Сезнең өчен соңгы берничә кисәк йөкләнә. . .</string>
+  <string name="splash_ad_loaded">Диярлек әзер. Киләсе экран әзерләнә.</string>
+  <string name="splash_ads_unavailable">Алга күчү һәм сезнең өчен урнаштыруны тәмамлау.</string>
+  <string name="splash_showing_ad">Йөкләүне тәмамлаган арада бер тиз тукталыш.</string>
+  <string name="splash_ready_to_enter_app">Әзер. Хәзер сезне эчкә алып барам.</string>
+  <string name="splash_countdown_early">Контентыгызны кертәсез. . .</string>
+  <string name="splash_countdown_mid">Фонда әле дә йөкләнә. Якын гына.</string>
+  <string name="splash_countdown_late">Авыр эшләрне тәмамладык. Хәзер ачыла. . .</string>
+</resources>

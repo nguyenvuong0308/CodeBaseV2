@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Priprema vašeg prostora…</string>
+  <string name="splash_waiting_for_internet">Čeka se veza kako bi se vaš chat mogao nesmetano učitati.</string>
+  <string name="splash_waiting_for_consent">Primjenjujem vaše postavke kako bi se sve otvaralo na ispravan način.</string>
+  <string name="splash_countdown_running">Učitavam vam posljednjih nekoliko dijelova…</string>
+  <string name="splash_ad_loaded">Gotovo gotovo. Pripremam sljedeći ekran.</string>
+  <string name="splash_ads_unavailable">Preskačem dalje i završavam postavljanje umjesto vas.</string>
+  <string name="splash_showing_ad">Jedna kratka stanica dok završavam s utovarom.</string>
+  <string name="splash_ready_to_enter_app">Spremni. Privodimo vas sada.</string>
+  <string name="splash_countdown_early">Unos vašeg sadržaja…</string>
+  <string name="splash_countdown_mid">Još uvijek se učitava u pozadini. Skoro je gotovo.</string>
+  <string name="splash_countdown_late">Gotovo s teškim poslom. Otvaramo sada…</string>
+</resources>

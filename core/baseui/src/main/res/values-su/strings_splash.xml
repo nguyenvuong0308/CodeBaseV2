@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Nyiapkeun rohangan anjeun…</string>
+  <string name="splash_waiting_for_internet">Ngantosan sambungan supados obrolan anjeun tiasa dimuat kalayan lancar.</string>
+  <string name="splash_waiting_for_consent">Nerapkeun setélan anjeun supados sadayana muka jalan anu leres.</string>
+  <string name="splash_countdown_running">Keur ngeusian sababaraha potongan pamungkas kanggo anjeun…</string>
+  <string name="splash_ad_loaded">Ampir réngsé. Nyiapkeun layar salajengna.</string>
+  <string name="splash_ads_unavailable">Ngalangkungan teras ngarengsekeun setelan kanggo anjeun.</string>
+  <string name="splash_showing_ad">Eureun sakeudeung bari kuring ngarengsekeun loading.</string>
+  <string name="splash_ready_to_enter_app">Siap. Ayeuna nuju ngabagéakeun anjeun.</string>
+  <string name="splash_countdown_early">Ngasupkeun eusi anjeun…</string>
+  <string name="splash_countdown_mid">Masih dimuat di latar tukang. Meh réngsé.</string>
+  <string name="splash_countdown_late">Rengse ngangkat barang beurat. Ayeuna tos dibuka…</string>
+</resources>

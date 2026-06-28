@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_fetching_remote_config">Getting your space ready…</string>
+    <string name="splash_waiting_for_internet">Waiting for connection so your chat can load smoothly.</string>
+    <string name="splash_waiting_for_consent">Applying your settings so everything opens the right way.</string>
+    <string name="splash_countdown_running">Loading the last few pieces for you…</string>
+    <string name="splash_ad_loaded">Almost done. Preparing the next screen.</string>
+    <string name="splash_ads_unavailable">Skipping ahead and finishing setup for you.</string>
+    <string name="splash_showing_ad">One quick stop while I finish loading.</string>
+    <string name="splash_ready_to_enter_app">Ready. Taking you in now.</string>
+    <string name="splash_countdown_early">Bringing in your content…</string>
+    <string name="splash_countdown_mid">Still loading in the background. Nearly there.</string>
+    <string name="splash_countdown_late">Done with the heavy lifting. Opening now…</string>
+</resources>

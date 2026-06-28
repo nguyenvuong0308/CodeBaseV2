@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Te whakarite i tō wāhi…</string>
+  <string name="splash_waiting_for_internet">E tatari ana kia honoa mai kia pai ai te uta o tō kōrerorero.</string>
+  <string name="splash_waiting_for_consent">Te whakamahi i ō tautuhinga kia tuwhera ai ngā mea katoa i te huarahi tika.</string>
+  <string name="splash_countdown_running">Kei te utaina ngā wāhanga whakamutunga māu…</string>
+  <string name="splash_ad_loaded">Kua tata oti. Kei te whakarite i te mata e whai ake nei.</string>
+  <string name="splash_ads_unavailable">Kei te peke whakamua, kei te whakaoti i te tatūnga māu.</string>
+  <string name="splash_showing_ad">Kotahi te wā mutu i a au e whakaoti ana i te uta.</string>
+  <string name="splash_ready_to_enter_app">Kua rite. Kei te tango atu i a koe inaianei.</string>
+  <string name="splash_countdown_early">Te kawe mai i ō ihirangi…</string>
+  <string name="splash_countdown_mid">Kei te utaina tonu i te papamuri. Tata tonu.</string>
+  <string name="splash_countdown_late">Kua mutu te mahi taumaha. Kei te tuwhera inaianei…</string>
+</resources>

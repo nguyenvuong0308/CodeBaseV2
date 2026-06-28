@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Inihahanda ang iyong espasyo…</string>
+  <string name="splash_waiting_for_internet">Naghihintay ng koneksyon para maayos na ma-load ang iyong chat.</string>
+  <string name="splash_waiting_for_consent">Paglalapat ng iyong mga setting upang mabuksan nang tama ang lahat.</string>
+  <string name="splash_countdown_running">Nilo-load ang mga huling piraso para sa iyo…</string>
+  <string name="splash_ad_loaded">Malapit nang matapos. Inihahanda ang susunod na screen.</string>
+  <string name="splash_ads_unavailable">Nauuna na ako at tinatapos ko na ang pag-setup para sa iyo.</string>
+  <string name="splash_showing_ad">Sandali akong huminto habang tinatapos ko ang pagkarga.</string>
+  <string name="splash_ready_to_enter_app">Handa na. Tatanggapin na kita ngayon.</string>
+  <string name="splash_countdown_early">Dinadala ang iyong nilalaman…</string>
+  <string name="splash_countdown_mid">Naglo-load pa rin sa background. Malapit na.</string>
+  <string name="splash_countdown_late">Tapos na ang mabibigat na gawain. Magbubukas na ngayon…</string>
+</resources>

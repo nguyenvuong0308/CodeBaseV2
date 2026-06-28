@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Kuandaa nafasi yako…</string>
+  <string name="splash_waiting_for_internet">Inasubiri muunganisho ili gumzo lako liweze kupakia vizuri.</string>
+  <string name="splash_waiting_for_consent">Kutumia mipangilio yako ili kila kitu kifunguke kwa njia sahihi.</string>
+  <string name="splash_countdown_running">Inapakia vipande vichache vya mwisho kwa ajili yako…</string>
+  <string name="splash_ad_loaded">Karibu imekamilika. Inaandaa skrini inayofuata.</string>
+  <string name="splash_ads_unavailable">Kuruka mbele na kumaliza usanidi kwa ajili yako.</string>
+  <string name="splash_showing_ad">Kituo kimoja cha haraka ninapomaliza kupakia.</string>
+  <string name="splash_ready_to_enter_app">Tayari. Tunakukaribisha sasa.</string>
+  <string name="splash_countdown_early">Inaleta maudhui yako…</string>
+  <string name="splash_countdown_mid">Bado inapakia chinichini. Karibu hapo.</string>
+  <string name="splash_countdown_late">Nimemaliza na kazi ya kuinua vitu vizito. Inafunguliwa sasa…</string>
+</resources>

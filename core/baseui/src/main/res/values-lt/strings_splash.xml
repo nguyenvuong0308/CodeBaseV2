@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Jūsų erdvės paruošimas…</string>
+  <string name="splash_waiting_for_internet">Laukiama ryšio, kad pokalbis galėtų sklandžiai įkeltis.</string>
+  <string name="splash_waiting_for_consent">Taikomi nustatymai, kad viskas atsidarytų tinkamai.</string>
+  <string name="splash_countdown_running">Įkeliami paskutiniai keli jums skirti kūriniai…</string>
+  <string name="splash_ad_loaded">Beveik baigta. Ruošiamas kitas ekranas.</string>
+  <string name="splash_ads_unavailable">Praleidžiama ir baigiama sąranka už jus.</string>
+  <string name="splash_showing_ad">Vienas trumpas sustojimas, kol baigsiu krauti.</string>
+  <string name="splash_ready_to_enter_app">Pasiruošę. Dabar jus priimsime.</string>
+  <string name="splash_countdown_early">Įkeliamas jūsų turinys…</string>
+  <string name="splash_countdown_mid">Vis dar kraunama fone. Beveik baigta.</string>
+  <string name="splash_countdown_late">Sunkių darbų nebaigėme. Dabar atidaroma…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Duke përgatitur hapësirën tuaj…</string>
+  <string name="splash_waiting_for_internet">Duke pritur për lidhje që biseda juaj të ngarkohet pa probleme.</string>
+  <string name="splash_waiting_for_consent">Po aplikohen cilësimet e tua në mënyrë që gjithçka të hapet siç duhet.</string>
+  <string name="splash_countdown_running">Po ngarkohen disa pjesët e fundit për ju…</string>
+  <string name="splash_ad_loaded">Pothuajse mbaroi. Po përgatitet ekrani tjetër.</string>
+  <string name="splash_ads_unavailable">Po kalojmë përpara dhe po përfundojmë konfigurimin për ju.</string>
+  <string name="splash_showing_ad">Një ndalesë e shpejtë ndërsa mbaroj ngarkimin.</string>
+  <string name="splash_ready_to_enter_app">Gati. Po ju pranojmë tani.</string>
+  <string name="splash_countdown_early">Duke sjellë përmbajtjen tuaj…</string>
+  <string name="splash_countdown_mid">Duke u ngarkuar ende në sfond. Pothuajse mbaroi.</string>
+  <string name="splash_countdown_late">Mbarova punën e rëndë. Hapet tani…</string>
+</resources>

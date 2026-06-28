@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Zure espazioa prestatzen…</string>
+  <string name="splash_waiting_for_internet">Konexioaren zain nago txata ondo kargatu ahal izateko.</string>
+  <string name="splash_waiting_for_consent">Zure ezarpenak aplikatzen, dena behar bezala ireki dadin.</string>
+  <string name="splash_countdown_running">Azken piezak kargatzen zuretzat…</string>
+  <string name="splash_ad_loaded">Ia amaituta. Hurrengo pantaila prestatzen.</string>
+  <string name="splash_ads_unavailable">Aurrerago saltoka eta konfigurazioa zuretzat amaitzen.</string>
+  <string name="splash_showing_ad">Geldialdi azkar bat kargatzen amaitzen dudan bitartean.</string>
+  <string name="splash_ready_to_enter_app">Prest. Orain hartzen zaitugu.</string>
+  <string name="splash_countdown_early">Zure edukia ekartzen…</string>
+  <string name="splash_countdown_mid">Atzeko planoan kargatzen ari da oraindik. Ia amaitu da.</string>
+  <string name="splash_countdown_late">Lan astunarekin amaituta. Irekitzen ari gara…</string>
+</resources>

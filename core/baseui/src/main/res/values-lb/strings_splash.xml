@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Äre Raum virbereeden…</string>
+  <string name="splash_waiting_for_internet">Waart op eng Verbindung, fir datt Äre Chat reibungslos luede kann.</string>
+  <string name="splash_waiting_for_consent">Är Astellungen uwenden, sou datt alles richteg opmécht.</string>
+  <string name="splash_countdown_running">Déi lescht puer Stécker fir Iech ginn gelueden…</string>
+  <string name="splash_ad_loaded">Bal fäerdeg. Den nächsten Écran gëtt virbereet.</string>
+  <string name="splash_ads_unavailable">Ech sprangen weider a maachen d\'Installatioun fir Iech fäerdeg.</string>
+  <string name="splash_showing_ad">Eng kuerz Paus, wärend ech fäerdeg gelueden hunn.</string>
+  <string name="splash_ready_to_enter_app">Fäerdeg. Mir huelen dech elo eran.</string>
+  <string name="splash_countdown_early">Ären Inhalt eranbréngen…</string>
+  <string name="splash_countdown_mid">Nach ëmmer am Hannergrond am Lueden. Bal fäerdeg.</string>
+  <string name="splash_countdown_late">Fäerdeg mat der schwéierer Aarbecht. Elo op…</string>
+</resources>

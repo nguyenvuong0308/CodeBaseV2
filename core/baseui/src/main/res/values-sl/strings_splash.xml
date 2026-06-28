@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Priprava prostora …</string>
+  <string name="splash_waiting_for_internet">Čakam na povezavo, da se lahko vaš klepet nemoteno naloži.</string>
+  <string name="splash_waiting_for_consent">Uporabite svoje nastavitve, da se vse odpre pravilno.</string>
+  <string name="splash_countdown_running">Nalagam vam zadnjih nekaj kosov …</string>
+  <string name="splash_ad_loaded">Skoraj končano. Priprava naslednjega zaslona.</string>
+  <string name="splash_ads_unavailable">Preskočimo naprej in dokončamo nastavitev namesto vas.</string>
+  <string name="splash_showing_ad">En hiter postanek, medtem ko končujem z nalaganjem.</string>
+  <string name="splash_ready_to_enter_app">Pripravljeni. Sprejemamo vas zdaj.</string>
+  <string name="splash_countdown_early">Vnašanje vaše vsebine …</string>
+  <string name="splash_countdown_mid">Še vedno se nalaga v ozadju. Skoraj sem končal/a.</string>
+  <string name="splash_countdown_late">Končano s težkim dvigovanjem. Odpiramo zdaj. . .</string>
+</resources>

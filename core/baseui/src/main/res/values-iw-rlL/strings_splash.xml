@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">מכינים את החלל שלכם…</string>
+  <string name="splash_waiting_for_internet">ממתין לחיבור כדי שהצ\'אט שלך יוכל להיטען בצורה חלקה.</string>
+  <string name="splash_waiting_for_consent">החלת ההגדרות שלך כך שהכל ייפתח בצורה הנכונה.</string>
+  <string name="splash_countdown_running">טוען את החלקים האחרונים בשבילך. . .</string>
+  <string name="splash_ad_loaded">כמעט סיימתי. מכין את המסך הבא.</string>
+  <string name="splash_ads_unavailable">מדלג קדימה ומסיים את ההתקנה עבורך.</string>
+  <string name="splash_showing_ad">עצירה קצרה אחת בזמן שאני מסיים להעמיס.</string>
+  <string name="splash_ready_to_enter_app">מוכן. מכניס אותך עכשיו.</string>
+  <string name="splash_countdown_early">מביאים את התוכן שלכם…</string>
+  <string name="splash_countdown_mid">עדיין בטעינה ברקע. כמעט סיימתי.</string>
+  <string name="splash_countdown_late">סיימתי עם העבודה הקשה. נפתח עכשיו…</string>
+</resources>

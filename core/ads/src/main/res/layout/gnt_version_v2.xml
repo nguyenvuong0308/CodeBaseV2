@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/native_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2b3d49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.gms.ads.nativead.MediaView
+                android:id="@+id/media_view"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/_10dp"
+                app:layout_constraintBottom_toTopOf="@+id/background"
+                app:layout_constraintTop_toBottomOf="@+id/controlClose" />
+
+            <ProgressBar
+                android:id="@+id/progressCountDown"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_1_5dp"
+                android:indeterminate="false"
+                android:max="1000"
+                android:progress="500"
+                android:progressTint="#FF7043"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <FrameLayout
+                android:id="@+id/controlClose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2dp"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/progressCountDown">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/tvClose"
+                    android:layout_width="@dimen/_32dp"
+                    android:layout_height="@dimen/_32dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="@dimen/_10dp"
+                    android:background="@drawable/bg_close_v1"
+                    android:fontFamily="@font/inter_medium"
+                    android:padding="@dimen/_6dp"
+                    android:src="@drawable/ic_close_ads_v"
+                    android:tint="@color/white" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/lnCountDown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:background="@drawable/bg_countdown_v1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/_15dp"
+                    android:paddingVertical="@dimen/_5dp">
+
+                    <TextView
+                        android:id="@+id/tvCountDownTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ads_countdown_title"
+                        android:textColor="@color/countdown_dark_title"
+                        android:textSize="@dimen/_11dp" />
+
+                    <TextView
+                        android:id="@+id/tvCountDownTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5dp"
+                        android:text="@string/ads_countdown_time_default"
+                        android:textColor="@color/countdown_dark_time"
+                        android:textSize="@dimen/_12dp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </FrameLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:paddingVertical="@dimen/_12dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/_70dp"
+                    android:layout_height="@dimen/_70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:layout_marginBottom="@dimen/_15dp"
+                    android:scaleType="fitCenter"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toTopOf="@+id/primary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/primary"
+                    style="@style/AdsTitleTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_12dp"
+                    android:layout_marginStart="@dimen/_12dp"
+                    android:layout_marginTop="@dimen/_12dp"
+                    android:layout_marginBottom="@dimen/_15dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20dp"
+                    app:layout_constraintBottom_toTopOf="@+id/body"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="Test AD : Flood-It!" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/body"
+                    style="@style/AdsBodyTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_12dp"
+                    android:layout_marginTop="@dimen/_7dp"
+                    android:layout_marginBottom="@dimen/_15dp"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:textColor="#fafafa"
+                    android:textSize="@dimen/_18dp"
+                    app:layout_constraintBottom_toTopOf="@id/layout_cta"
+                    tools:text="Install Flood-It App for free! Free Popurlar Casual Game " />
+
+                <FrameLayout
+                    android:id="@+id/layout_cta"
+                    style="@style/CtaCardViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_16dp"
+                    android:layout_marginBottom="@dimen/_40dp"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/cta"
+                        style="@style/CtaViewStyle"
+                        tools:background="@color/colorPrimary"
+                        tools:text="Cài đặt" />
+                </FrameLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/ad_notification_view"
+                style="@style/AdsNotificationViewStyle"
+                android:textSize="@dimen/_14dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</merge>

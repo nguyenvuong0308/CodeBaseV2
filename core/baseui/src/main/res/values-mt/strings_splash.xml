@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Tħejji l-ispazju tiegħek…</string>
+  <string name="splash_waiting_for_internet">Qed nistenna l-konnessjoni sabiex iċ-chat tiegħek ikun jista\' jitgħabba bla xkiel.</string>
+  <string name="splash_waiting_for_consent">Qed napplika s-settings tiegħek sabiex kollox jinfetaħ kif suppost.</string>
+  <string name="splash_countdown_running">Qed jitgħabbew l-aħħar ftit biċċiet għalik…</string>
+  <string name="splash_ad_loaded">Kważi lest. Qed nippreparaw l-iskrin li jmiss.</string>
+  <string name="splash_ads_unavailable">Qed naqbeż \'il quddiem u nlesti s-setup għalik.</string>
+  <string name="splash_showing_ad">Waqfa waħda malajr waqt li nispiċċa ngħabbi.</string>
+  <string name="splash_ready_to_enter_app">Lest. Qed nilqgħuk issa.</string>
+  <string name="splash_countdown_early">Daħħal il-kontenut tiegħek…</string>
+  <string name="splash_countdown_mid">Għadu qed jitgħabba fl-isfond. Kważi wasal.</string>
+  <string name="splash_countdown_late">Lest mix-xogħol tqil. Niftħu issa…</string>
+</resources>

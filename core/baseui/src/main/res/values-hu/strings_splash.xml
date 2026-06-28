@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">A helyed előkészítése…</string>
+  <string name="splash_waiting_for_internet">Kapcsolatra várok, hogy a csevegés zavartalanul betöltődhessen.</string>
+  <string name="splash_waiting_for_consent">A beállítások alkalmazása, hogy minden a megfelelő módon nyíljon meg.</string>
+  <string name="splash_countdown_running">Az utolsó néhány darab betöltése folyamatban…</string>
+  <string name="splash_ad_loaded">Majdnem kész. A következő képernyő előkészítése folyamatban.</string>
+  <string name="splash_ads_unavailable">Továbbugrom, és befejezem a beállítást.</string>
+  <string name="splash_showing_ad">Egy gyors megálló, amíg befejezem a rakodást.</string>
+  <string name="splash_ready_to_enter_app">Készen állok. Most befogadlak.</string>
+  <string name="splash_countdown_early">Tartalom betöltése…</string>
+  <string name="splash_countdown_mid">Még mindig töltődik a háttérben. Már majdnem kész.</string>
+  <string name="splash_countdown_late">Vége a nehéz munkának. Nyitás most…</string>
+</resources>

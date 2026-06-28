@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Manomana ny toerana misy anao…</string>
+  <string name="splash_waiting_for_internet">Miandry ny fifandraisana mba hahafahan\'ny resakao misokatra tsara.</string>
+  <string name="splash_waiting_for_consent">Fampiharana ny fikiranao mba hisokafan\'ny zava-drehetra amin\'ny fomba mety.</string>
+  <string name="splash_countdown_running">Mameno ireo sombintsombiny farany ho anao. . .</string>
+  <string name="splash_ad_loaded">Efa ho vita. Manomana ny efijery manaraka.</string>
+  <string name="splash_ads_unavailable">Mandroso hatrany ary mamita ny fametrahana ho anao.</string>
+  <string name="splash_showing_ad">Mijanòna kely aloha mandra-pahavitako ny famenoana ny entana.</string>
+  <string name="splash_ready_to_enter_app">Vonona. Handray anao izao.</string>
+  <string name="splash_countdown_early">Mitondra ny votoatinao…</string>
+  <string name="splash_countdown_mid">Mbola eo am-pamoahana any ambadika. Kely sisa dia ho tonga.</string>
+  <string name="splash_countdown_late">Vita ny asa mavesatra. Misokatra izao…</string>
+</resources>

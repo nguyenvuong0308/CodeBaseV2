@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Ap prepare espas ou a…</string>
+  <string name="splash_waiting_for_internet">Ap tann koneksyon an pou chat ou a ka chaje san pwoblèm.</string>
+  <string name="splash_waiting_for_consent">Ap aplike paramèt ou yo pou tout bagay ouvri nan bon sans lan.</string>
+  <string name="splash_countdown_running">Ap chaje dènye moso yo pou ou. . .</string>
+  <string name="splash_ad_loaded">Prèske fini. Ap prepare pwochen ekran an.</string>
+  <string name="splash_ads_unavailable">N ap sote pi devan epi n ap fini konfigirasyon an pou ou.</string>
+  <string name="splash_showing_ad">Yon ti kanpe rapid pandan m ap fini chaje.</string>
+  <string name="splash_ready_to_enter_app">Pare. M ap resevwa w kounye a.</string>
+  <string name="splash_countdown_early">Ap pote kontni ou. . .</string>
+  <string name="splash_countdown_mid">Toujou ap chaje nan background nan. Prèske rive.</string>
+  <string name="splash_countdown_late">Fini ak travay di a. Nou ap ouvri kounye a. . .</string>
+</resources>

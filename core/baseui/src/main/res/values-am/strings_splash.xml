@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">ቦታዎን በማዘጋጀት ላይ…</string>
+  <string name="splash_waiting_for_internet">ውይይትዎ በተቀላጠፈ ሁኔታ እንዲጫን ግንኙነትን በመጠበቅ ላይ።</string>
+  <string name="splash_waiting_for_consent">ሁሉም ነገር በትክክለኛው መንገድ እንዲከፈት ቅንብሮችዎን በመተግበር ላይ።</string>
+  <string name="splash_countdown_running">የመጨረሻዎቹን ጥቂት ክፍሎች ለእርስዎ በመጫን ላይ…</string>
+  <string name="splash_ad_loaded">ሊጠናቀቅ ተቃርቧል። የሚቀጥለውን ማያ ገጽ በማዘጋጀት ላይ።</string>
+  <string name="splash_ads_unavailable">ወደፊት ዘልለው ማዋቀርዎን ይጨርሱ።</string>
+  <string name="splash_showing_ad">ጭነት ስጨርስ አንድ ፈጣን ማቆሚያ።</string>
+  <string name="splash_ready_to_enter_app">ዝግጁ። አሁን እየወሰድክ ነው።</string>
+  <string name="splash_countdown_early">ይዘትዎን በማስገባት ላይ…</string>
+  <string name="splash_countdown_mid">አሁንም ከበስተጀርባ እየተጫነ ነው። ሊደርሱ ነው።</string>
+  <string name="splash_countdown_late">ከባድ ማንሳት ጨርሰናል። አሁን እየተከፈተ ነው…</string>
+</resources>

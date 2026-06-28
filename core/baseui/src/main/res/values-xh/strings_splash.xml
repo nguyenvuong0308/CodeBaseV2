@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Ukulungiselela indawo yakho…</string>
+  <string name="splash_waiting_for_internet">Ilinde uqhagamshelo ukuze incoko yakho ikwazi ukulayisha kakuhle.</string>
+  <string name="splash_waiting_for_consent">Ukusebenzisa useto lwakho ukuze yonke into ivuleke ngendlela eyiyo.</string>
+  <string name="splash_countdown_running">Ilayisha iziqwenga ezimbalwa zokugqibela kuwe…</string>
+  <string name="splash_ad_loaded">Sele kugqityiwe. Ndilungiselela isikrini esilandelayo.</string>
+  <string name="splash_ads_unavailable">Ukutsiba phambili nokugqiba ukuseta kwakho.</string>
+  <string name="splash_showing_ad">Ukuma okukhawulezileyo kanye ngelixa ndigqibezela ukulayisha.</string>
+  <string name="splash_ready_to_enter_app">Ukulungele. Ndikwamkela ngoku.</string>
+  <string name="splash_countdown_early">Ndizisa umxholo wakho…</string>
+  <string name="splash_countdown_mid">Isalayisha ngasemva. Sele ifikile.</string>
+  <string name="splash_countdown_late">Ndigqibile ukuphakamisa izinto ezisindayo. Iyavulwa ngoku…</string>
+</resources>

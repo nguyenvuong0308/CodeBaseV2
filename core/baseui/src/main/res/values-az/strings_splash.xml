@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Məkanınız hazırlanır. . .</string>
+  <string name="splash_waiting_for_internet">Söhbətinizin problemsiz yüklənməsi üçün bağlantı gözlənilir.</string>
+  <string name="splash_waiting_for_consent">Hər şeyin düzgün şəkildə açılması üçün parametrlərinizi tətbiq edin.</string>
+  <string name="splash_countdown_running">Son bir neçə hissə sizin üçün yüklənir. . .</string>
+  <string name="splash_ad_loaded">Demək olar ki, hazırdır. Növbəti ekran hazırlanır.</string>
+  <string name="splash_ads_unavailable">İrəli atlayır və quraşdırmanı sizin üçün tamamlayır.</string>
+  <string name="splash_showing_ad">Yükləməni bitirərkən bircə dəfə dayandım.</string>
+  <string name="splash_ready_to_enter_app">Hazır. İndi sizi qəbul edirəm.</string>
+  <string name="splash_countdown_early">Kontentiniz təqdim olunur. . .</string>
+  <string name="splash_countdown_mid">Hələ də arxa planda yüklənir. Demək olar ki, hazırdır.</string>
+  <string name="splash_countdown_late">Ağır işləri bitirdik. İndi açılır. . .</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Tilan valmistelu…</string>
+  <string name="splash_waiting_for_internet">Odotetaan yhteyttä, jotta chat latautuu sujuvasti.</string>
+  <string name="splash_waiting_for_consent">Asetuksiasi käytetään, jotta kaikki avautuu oikein.</string>
+  <string name="splash_countdown_running">Ladataan viimeisiä palasia puolestasi…</string>
+  <string name="splash_ad_loaded">Melkein valmis. Valmistellaan seuraavaa näyttöä.</string>
+  <string name="splash_ads_unavailable">Ohitetaan eteenpäin ja viimeistellään asetukset puolestasi.</string>
+  <string name="splash_showing_ad">Yksi nopea pysähdys, kun lopetan lastaamisen.</string>
+  <string name="splash_ready_to_enter_app">Valmis. Otan sinut vastaan ​​nyt.</string>
+  <string name="splash_countdown_early">Sisällön tuominen…</string>
+  <string name="splash_countdown_mid">Latautuu edelleen taustalla. Melkein valmis.</string>
+  <string name="splash_countdown_late">Raskas työ tehty. Avataan nyt…</string>
+</resources>

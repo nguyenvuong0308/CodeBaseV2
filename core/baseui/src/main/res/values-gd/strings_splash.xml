@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">A’ cur an àite agad deiseil…</string>
+  <string name="splash_waiting_for_internet">A’ feitheamh ri ceangal gus an urrainn don chòmhradh agad luchdachadh gu rèidh.</string>
+  <string name="splash_waiting_for_consent">A’ cur do roghainnean an sàs gus am fosgail a h-uile càil san dòigh cheart.</string>
+  <string name="splash_countdown_running">A’ luchdachadh na pìosan mu dheireadh dhut…</string>
+  <string name="splash_ad_loaded">Cha mhòr deiseil. Ag ullachadh an ath-sgrìn.</string>
+  <string name="splash_ads_unavailable">A’ leum air adhart agus a’ crìochnachadh an stèidheachaidh dhut.</string>
+  <string name="splash_showing_ad">Aon stad luath fhad ’s a bhios mi a’ crìochnachadh luchdachadh.</string>
+  <string name="splash_ready_to_enter_app">Deiseil. A’ gabhail a-steach thu a-nis.</string>
+  <string name="splash_countdown_early">A’ cur a-steach do shusbaint…</string>
+  <string name="splash_countdown_mid">Fhathast a’ luchdadh sa chùlaibh. Cha mhòr ann.</string>
+  <string name="splash_countdown_late">Deiseil leis an obair throm. A’ fosgladh a-nis…</string>
+</resources>

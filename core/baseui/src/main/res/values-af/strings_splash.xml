@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Kry jou spasie gereed…</string>
+  <string name="splash_waiting_for_internet">Wag vir verbinding sodat jou klets glad kan laai.</string>
+  <string name="splash_waiting_for_consent">Pas jou instellings toe sodat alles op die regte manier oopmaak.</string>
+  <string name="splash_countdown_running">Laai die laaste paar stukke vir jou af…</string>
+  <string name="splash_ad_loaded">Amper klaar. Berei die volgende skerm voor.</string>
+  <string name="splash_ads_unavailable">Spring vorentoe en voltooi die opstelling vir jou.</string>
+  <string name="splash_showing_ad">Een vinnige stop terwyl ek klaar laai.</string>
+  <string name="splash_ready_to_enter_app">Gereed. Neem jou nou in.</string>
+  <string name="splash_countdown_early">Bring jou inhoud in…</string>
+  <string name="splash_countdown_mid">Laai steeds in die agtergrond. Amper daar.</string>
+  <string name="splash_countdown_late">Klaar met die swaar werk. Maak nou oop…</string>
+</resources>

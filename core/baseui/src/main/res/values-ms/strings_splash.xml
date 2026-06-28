@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Menyediakan ruang anda…</string>
+  <string name="splash_waiting_for_internet">Menunggu sambungan supaya sembang anda boleh dimuatkan dengan lancar.</string>
+  <string name="splash_waiting_for_consent">Menggunakan tetapan anda supaya semuanya terbuka dengan cara yang betul.</string>
+  <string name="splash_countdown_running">Memuatkan beberapa bahagian terakhir untuk anda…</string>
+  <string name="splash_ad_loaded">Hampir selesai. Menyediakan skrin seterusnya.</string>
+  <string name="splash_ads_unavailable">Melangkau ke hadapan dan menyelesaikan persediaan untuk anda.</string>
+  <string name="splash_showing_ad">Berhenti sebentar sementara saya selesai memuatkan barang.</string>
+  <string name="splash_ready_to_enter_app">Bersedia. Membawa awak masuk sekarang.</string>
+  <string name="splash_countdown_early">Membawa masuk kandungan anda…</string>
+  <string name="splash_countdown_mid">Masih dimuatkan di latar belakang. Hampir selesai.</string>
+  <string name="splash_countdown_late">Selesai dengan kerja-kerja berat. Buka sekarang…</string>
+</resources>

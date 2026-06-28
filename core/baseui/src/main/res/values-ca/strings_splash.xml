@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Preparant el teu espai…</string>
+  <string name="splash_waiting_for_internet">Esperant la connexió perquè el xat es pugui carregar sense problemes.</string>
+  <string name="splash_waiting_for_consent">Aplicant la configuració perquè tot s\'obri de la manera correcta.</string>
+  <string name="splash_countdown_running">S\'estan carregant les últimes peces per a tu…</string>
+  <string name="splash_ad_loaded">Gairebé acabat. Preparant la pantalla següent.</string>
+  <string name="splash_ads_unavailable">Saltant endavant i acabant la configuració per a tu.</string>
+  <string name="splash_showing_ad">Una parada ràpida mentre acabo de carregar.</string>
+  <string name="splash_ready_to_enter_app">A punt. T\'acollim ara.</string>
+  <string name="splash_countdown_early">Introduint el vostre contingut…</string>
+  <string name="splash_countdown_mid">Encara s\'està carregant en segon pla. Ja gairebé hi sóc.</string>
+  <string name="splash_countdown_late">Ja hem acabat la feina pesada. Obrim ara. . .</string>
+</resources>

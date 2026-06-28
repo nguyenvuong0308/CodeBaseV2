@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Joyingiz tayyorlanmoqda…</string>
+  <string name="splash_waiting_for_internet">Chatingiz muammosiz yuklanishi uchun ulanish kutilmoqda.</string>
+  <string name="splash_waiting_for_consent">Sozlamalaringizni qo\'llash orqali hamma narsa to\'g\'ri ochiladi.</string>
+  <string name="splash_countdown_running">Siz uchun oxirgi bir nechta qismlar yuklanmoqda…</string>
+  <string name="splash_ad_loaded">Deyarli tayyor. Keyingi ekran tayyorlanmoqda.</string>
+  <string name="splash_ads_unavailable">Oldinga o\'tish va sozlashni yakunlash.</string>
+  <string name="splash_showing_ad">Yuklashni tugatayotganimda bir marta to\'xtab qoldim.</string>
+  <string name="splash_ready_to_enter_app">Tayyor. Hozir sizni qabul qilyapman.</string>
+  <string name="splash_countdown_early">Kontentingizni taqdim etmoqda…</string>
+  <string name="splash_countdown_mid">Hali ham fonda yuklanmoqda. Deyarli tayyor.</string>
+  <string name="splash_countdown_late">Og\'ir ishlarni tugatdim. Hozir ochilmoqda…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Sagatavojiet savu telpu…</string>
+  <string name="splash_waiting_for_internet">Gaida savienojumu, lai tērzēšana varētu netraucēti ielādēties.</string>
+  <string name="splash_waiting_for_consent">Iestatījumu lietošana, lai viss atvērtos pareizi.</string>
+  <string name="splash_countdown_running">Notiek pēdējo daļu ielāde jūsu vietā…</string>
+  <string name="splash_ad_loaded">Gandrīz gatavs. Notiek nākamā ekrāna sagatavošana.</string>
+  <string name="splash_ads_unavailable">Notiek pārlekšana un iestatīšanas pabeigšana jūsu vietā.</string>
+  <string name="splash_showing_ad">Viena ātra pietura, kamēr pabeidzu iekraušanu.</string>
+  <string name="splash_ready_to_enter_app">Gatavs. Tagad jūs uzņemam.</string>
+  <string name="splash_countdown_early">Notiek jūsu satura pievienošana…</string>
+  <string name="splash_countdown_mid">Joprojām notiek ielāde fonā. Gandrīz gatavs.</string>
+  <string name="splash_countdown_late">Smago darbu paveikuši. Atveram tagad…</string>
+</resources>

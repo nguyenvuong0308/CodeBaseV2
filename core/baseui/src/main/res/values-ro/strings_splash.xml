@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Pregătirea spațiului tău…</string>
+  <string name="splash_waiting_for_internet">Aștept conexiunea pentru ca chatul să se poată încărca fără probleme.</string>
+  <string name="splash_waiting_for_consent">Se aplică setările astfel încât totul să se deschidă corect.</string>
+  <string name="splash_countdown_running">Se încarcă ultimele piese pentru tine…</string>
+  <string name="splash_ad_loaded">Aproape gata. Se pregătește următorul ecran.</string>
+  <string name="splash_ads_unavailable">Se trece la pasul următor și se finalizează configurarea pentru tine.</string>
+  <string name="splash_showing_ad">O oprire rapidă cât termin de încărcat.</string>
+  <string name="splash_ready_to_enter_app">Gata. Te primesc acum.</string>
+  <string name="splash_countdown_early">Aducerea conținutului dvs. …</string>
+  <string name="splash_countdown_mid">Încă se încarcă în fundal. Aproape am terminat.</string>
+  <string name="splash_countdown_late">Gata cu munca grea. Deschidere acum…</string>
+</resources>

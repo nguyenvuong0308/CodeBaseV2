@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Ruumi ettevalmistamine…</string>
+  <string name="splash_waiting_for_internet">Ootan ühendust, et teie vestlus saaks sujuvalt laadida.</string>
+  <string name="splash_waiting_for_consent">Seadete rakendamine, et kõik avaneks õigesti.</string>
+  <string name="splash_countdown_running">Laadin teile viimaseid palasid…</string>
+  <string name="splash_ad_loaded">Peaaegu valmis. Järgmise ekraani ettevalmistamine.</string>
+  <string name="splash_ads_unavailable">Jätan edasi ja lõpetan seadistamise teie eest.</string>
+  <string name="splash_showing_ad">Üks kiire peatus, kuni ma laadimise lõpetan.</string>
+  <string name="splash_ready_to_enter_app">Valmis. Võtame teid nüüd vastu.</string>
+  <string name="splash_countdown_early">Teie sisu toomine…</string>
+  <string name="splash_countdown_mid">Laadimine toimub ikka taustal. Peaaegu valmis.</string>
+  <string name="splash_countdown_late">Raske töö tehtud. Avame nüüd…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">သင့်နေရာကို ပြင်ဆင်နေသည်…</string>
+  <string name="splash_waiting_for_internet">သင့်ချတ်ကို ချောမွေ့စွာဖွင့်နိုင်ရန် ချိတ်ဆက်မှုကို စောင့်နေပါသည်။</string>
+  <string name="splash_waiting_for_consent">အရာအားလုံး မှန်ကန်စွာပွင့်စေရန် သင့်ဆက်တင်များကို ထည့်သွင်းနေပါသည်။</string>
+  <string name="splash_countdown_running">သင့်အတွက် နောက်ဆုံးအပိုင်းအနည်းငယ်ကို တင်နေသည်…</string>
+  <string name="splash_ad_loaded">ပြီးတော့မယ်။ နောက်စခရင်ကို ပြင်ဆင်နေပါတယ်။</string>
+  <string name="splash_ads_unavailable">ကျော်သွားပြီး သင့်အတွက် စနစ်ထည့်သွင်းမှုကို အပြီးသတ်နေပါသည်။</string>
+  <string name="splash_showing_ad">ကျွန်တော် ပစ္စည်းတင်ပြီးတဲ့အခါ ခဏရပ်လိုက်တယ်။</string>
+  <string name="splash_ready_to_enter_app">အဆင်သင့်ဖြစ်ပါပြီ။ အခုပဲ လာခေါ်ပါမယ်။</string>
+  <string name="splash_countdown_early">သင့်အကြောင်းအရာကို ထည့်သွင်းခြင်း…</string>
+  <string name="splash_countdown_mid">နောက်ခံမှာ တင်နေဆဲပါ။ ပြီးတော့မယ်။</string>
+  <string name="splash_countdown_late">လေးလံတဲ့အလုပ်တွေ ပြီးပြီ။ အခုဖွင့်နေပါပြီ…</string>
+</resources>

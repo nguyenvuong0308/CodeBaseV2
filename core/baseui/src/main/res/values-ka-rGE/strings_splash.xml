@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">თქვენი სივრცის მომზადება…</string>
+  <string name="splash_waiting_for_internet">ველოდებით კავშირს, რათა თქვენი ჩატი შეუფერხებლად ჩაიტვირთოს.</string>
+  <string name="splash_waiting_for_consent">თქვენი პარამეტრების გამოყენება ისე, რომ ყველაფერი სწორად გაიხსნას.</string>
+  <string name="splash_countdown_running">ბოლო რამდენიმე ნაწილი იტვირთება თქვენთვის…</string>
+  <string name="splash_ad_loaded">თითქმის დასრულებულია. შემდეგი ეკრანის მომზადება.</string>
+  <string name="splash_ads_unavailable">გამოტოვება და თქვენთვის დაყენება დასრულებულია.</string>
+  <string name="splash_showing_ad">ერთი სწრაფი გაჩერება, სანამ ჩატვირთვას დავასრულებ.</string>
+  <string name="splash_ready_to_enter_app">მზადაა. ახლავე გიმასპინძლებთ.</string>
+  <string name="splash_countdown_early">თქვენი კონტენტის შემოტანა…</string>
+  <string name="splash_countdown_mid">ისევ ფონურ რეჟიმში იტვირთება. თითქმის დასრულებულია.</string>
+  <string name="splash_countdown_late">მძიმე საქმეები დასრულდა. ახლა იხსნება…</string>
+</resources>

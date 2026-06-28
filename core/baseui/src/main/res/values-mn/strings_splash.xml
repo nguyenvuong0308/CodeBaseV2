@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Орон зайгаа бэлдэж байна. . .</string>
+  <string name="splash_waiting_for_internet">Таны чат асуудалгүй ачаалагдахын тулд холболтыг хүлээж байна.</string>
+  <string name="splash_waiting_for_consent">Бүх зүйл зөв замаар нээгдэхийн тулд тохиргоогоо хэрэгжүүлж байна.</string>
+  <string name="splash_countdown_running">Танд зориулж сүүлийн хэдэн хэсгийг ачаалж байна. . .</string>
+  <string name="splash_ad_loaded">Бараг дууслаа. Дараагийн дэлгэцийг бэлдэж байна.</string>
+  <string name="splash_ads_unavailable">Урьдчилж алгасаж, тохиргоог дуусгаж байна.</string>
+  <string name="splash_showing_ad">Ачаалж дуусах зуураа нэг л хурдан зогслоо.</string>
+  <string name="splash_ready_to_enter_app">Бэлэн. Одоо таныг хүлээн авч байна.</string>
+  <string name="splash_countdown_early">Таны контентыг оруулж байна. . .</string>
+  <string name="splash_countdown_mid">Ар талд ачаалж байна. Бараг л дууслаа.</string>
+  <string name="splash_countdown_late">Хүнд ажлаа дуусгалаа. Одоо нээж байна. . .</string>
+</resources>

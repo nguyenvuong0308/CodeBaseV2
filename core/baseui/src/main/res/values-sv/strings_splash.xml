@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Förbereder ditt utrymme…</string>
+  <string name="splash_waiting_for_internet">Väntar på anslutning så att din chatt kan laddas smidigt.</string>
+  <string name="splash_waiting_for_consent">Tillämpar dina inställningar så att allt öppnas på rätt sätt.</string>
+  <string name="splash_countdown_running">Laddar de sista bitarna åt dig…</string>
+  <string name="splash_ad_loaded">Nästan klar. Förbereder nästa skärm.</string>
+  <string name="splash_ads_unavailable">Hoppar vidare och slutför konfigurationen åt dig.</string>
+  <string name="splash_showing_ad">Ett snabbt stopp medan jag lastar klart.</string>
+  <string name="splash_ready_to_enter_app">Klar. Tar in dig nu.</string>
+  <string name="splash_countdown_early">Tar in ditt innehåll…</string>
+  <string name="splash_countdown_mid">Laddar fortfarande i bakgrunden. Nästan klart.</string>
+  <string name="splash_countdown_late">Klar med det tunga arbetet. Öppnar nu…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">ກຳລັງກຽມພື້ນທີ່ຂອງທ່ານ…</string>
+  <string name="splash_waiting_for_internet">ກຳລັງລໍຖ້າການເຊື່ອມຕໍ່ເພື່ອໃຫ້ການສົນທະນາຂອງທ່ານສາມາດໂຫຼດໄດ້ຢ່າງລຽບງ່າຍ.</string>
+  <string name="splash_waiting_for_consent">ກຳລັງໃຊ້ການຕັ້ງຄ່າຂອງທ່ານເພື່ອໃຫ້ທຸກຢ່າງເປີດຂຶ້ນໃນທາງທີ່ຖືກຕ້ອງ.</string>
+  <string name="splash_countdown_running">ກຳລັງໂຫຼດຊິ້ນສ່ວນສຸດທ້າຍສອງສາມອັນໃຫ້ທ່ານ…</string>
+  <string name="splash_ad_loaded">ເກືອບສຳເລັດແລ້ວ. ກຳລັງກະກຽມໜ້າຈໍຕໍ່ໄປ.</string>
+  <string name="splash_ads_unavailable">ຂ້າມໄປໜ້າ ແລະ ສຳເລັດການຕັ້ງຄ່າໃຫ້ທ່ານ.</string>
+  <string name="splash_showing_ad">ຢຸດໄວໆອັນໜຶ່ງໃນຂະນະທີ່ຂ້ອຍໂຫຼດສິນຄ້າສຳເລັດ.</string>
+  <string name="splash_ready_to_enter_app">ພ້ອມແລ້ວ. ຮັບທ່ານເຂົ້າໄປດຽວນີ້.</string>
+  <string name="splash_countdown_early">ກຳລັງນຳເອົາເນື້ອຫາຂອງທ່ານເຂົ້າມາ…</string>
+  <string name="splash_countdown_mid">ຍັງໂຫຼດຢູ່ໃນພື້ນຫຼັງ. ໃກ້ແລ້ວ.</string>
+  <string name="splash_countdown_late">ສຳເລັດແລ້ວກັບການຍົກຂອງໜັກ. ເປີດດຽວນີ້…</string>
+</resources>

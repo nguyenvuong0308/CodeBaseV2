@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Προετοιμασία του χώρου σας…</string>
+  <string name="splash_waiting_for_internet">Αναμονή για σύνδεση ώστε η συνομιλία σας να φορτώσει ομαλά.</string>
+  <string name="splash_waiting_for_consent">Εφαρμόζουμε τις ρυθμίσεις σας ώστε όλα να ανοίγουν σωστά.</string>
+  <string name="splash_countdown_running">Φόρτωση των τελευταίων κομματιών για εσάς…</string>
+  <string name="splash_ad_loaded">Σχεδόν τελείωσα. Προετοιμασία για την επόμενη οθόνη.</string>
+  <string name="splash_ads_unavailable">Παράλειψη και ολοκλήρωση της ρύθμισης για εσάς.</string>
+  <string name="splash_showing_ad">Μια γρήγορη στάση μέχρι να τελειώσω τη φόρτωση.</string>
+  <string name="splash_ready_to_enter_app">Έτοιμοι. Σας καλωσορίζουμε τώρα.</string>
+  <string name="splash_countdown_early">Προσθήκη του περιεχομένου σας…</string>
+  <string name="splash_countdown_mid">Φόρτωση ακόμα στο παρασκήνιο. Σχεδόν τελείωσε.</string>
+  <string name="splash_countdown_late">Τελείωσα με τις δύσκολες δουλειές. Ανοίγει τώρα…</string>
+</resources>

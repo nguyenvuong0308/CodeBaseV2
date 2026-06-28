@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Омода кардани фазои шумо…</string>
+  <string name="splash_waiting_for_internet">Интизори пайвастшавӣ ҳастем, то чати шумо бе мушкил бор шавад.</string>
+  <string name="splash_waiting_for_consent">Танзимоти худро истифода баред, то ҳама чиз ба таври дуруст кушода шавад.</string>
+  <string name="splash_countdown_running">Бор кардани чанд порчаи охирин барои шумо…</string>
+  <string name="splash_ad_loaded">Қариб анҷом ёфт. Экрани навбатӣ омода карда мешавад.</string>
+  <string name="splash_ads_unavailable">Ба пеш гузаред ва танзимотро барои шумо ба анҷом расонед.</string>
+  <string name="splash_showing_ad">Ҳангоми анҷом додани боркунӣ, як таваққуфи зуд.</string>
+  <string name="splash_ready_to_enter_app">Омода. Ҳоло шуморо қабул мекунам.</string>
+  <string name="splash_countdown_early">Ворид кардани мундариҷаи шумо…</string>
+  <string name="splash_countdown_mid">Ҳоло ҳам дар замина боргузорӣ мешавад. Қариб тамом.</string>
+  <string name="splash_countdown_late">Корҳои вазнинро тамом кардед. Ҳоло кушода мешавад…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">공간을 준비하는 중…</string>
+  <string name="splash_waiting_for_internet">채팅이 원활하게 로드될 수 있도록 연결을 기다리는 중입니다.</string>
+  <string name="splash_waiting_for_consent">설정을 적용하여 모든 것이 올바르게 열리도록 합니다.</string>
+  <string name="splash_countdown_running">마지막 몇 조각을 로딩하는 중입니다…</string>
+  <string name="splash_ad_loaded">거의 다 됐습니다. 다음 화면을 준비 중입니다.</string>
+  <string name="splash_ads_unavailable">바로 설정을 완료해 드리겠습니다.</string>
+  <string name="splash_showing_ad">짐 싣는 동안 잠깐 들렀다 가요.</string>
+  <string name="splash_ready_to_enter_app">준비됐습니다. 지금 입장시켜 드리겠습니다.</string>
+  <string name="splash_countdown_early">콘텐츠를 가져오세요…</string>
+  <string name="splash_countdown_mid">백그라운드에서 로딩 중입니다. 거의 다 됐어요.</string>
+  <string name="splash_countdown_late">힘든 작업은 끝났습니다. 이제 영업 시작합니다…</string>
+</resources>

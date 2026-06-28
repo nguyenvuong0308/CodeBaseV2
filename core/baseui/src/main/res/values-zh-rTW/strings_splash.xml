@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">準備空間…</string>
+  <string name="splash_waiting_for_internet">正在等待連接，以便您的聊天內容能夠流暢加載。</string>
+  <string name="splash_waiting_for_consent">應用您的設置，使所有內容都能以正確的方式開啟。</string>
+  <string name="splash_countdown_running">正在載入最後幾段內容…</string>
+  <string name="splash_ad_loaded">快完成了。正在準備下一個畫面。</string>
+  <string name="splash_ads_unavailable">跳過這一步，直接為您完成設定。</string>
+  <string name="splash_showing_ad">趁我裝車的空檔，順便去一下。</string>
+  <string name="splash_ready_to_enter_app">準備好了。現在帶你進去。</string>
+  <string name="splash_countdown_early">導入您的內容…</string>
+  <string name="splash_countdown_mid">後台仍在加載。快完成了。</string>
+  <string name="splash_countdown_late">最繁重的工作已經完成。現在開始營業…</string>
+</resources>

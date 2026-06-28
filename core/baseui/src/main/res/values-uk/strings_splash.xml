@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Підготовка вашого простору…</string>
+  <string name="splash_waiting_for_internet">Очікування з’єднання для безперебійного завантаження вашого чату.</string>
+  <string name="splash_waiting_for_consent">Застосовуємо ваші налаштування, щоб все відкривалося правильно.</string>
+  <string name="splash_countdown_running">Завантаження останніх кількох фрагментів для вас…</string>
+  <string name="splash_ad_loaded">Майже готово. Підготовка наступного екрана.</string>
+  <string name="splash_ads_unavailable">Пропускаємо далі та завершуємо налаштування.</string>
+  <string name="splash_showing_ad">Одна швидка зупинка, поки я закінчую завантаження.</string>
+  <string name="splash_ready_to_enter_app">Готові. Зараз вас приймаємо.</string>
+  <string name="splash_countdown_early">Внесення вашого контенту…</string>
+  <string name="splash_countdown_mid">Все ще завантажується у фоновому режимі. Майже готово.</string>
+  <string name="splash_countdown_late">З важкою роботою закінчено. Відкривається зараз…</string>
+</resources>

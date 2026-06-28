@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">നിങ്ങളുടെ സ്ഥലം തയ്യാറാക്കുന്നു. . .</string>
+  <string name="splash_waiting_for_internet">നിങ്ങളുടെ ചാറ്റ് സുഗമമായി ലോഡ് ചെയ്യാൻ കഴിയുന്ന തരത്തിൽ കണക്ഷനായി കാത്തിരിക്കുന്നു.</string>
+  <string name="splash_waiting_for_consent">നിങ്ങളുടെ ക്രമീകരണങ്ങൾ പ്രയോഗിക്കുന്നതിലൂടെ എല്ലാം ശരിയായ വഴിയിലൂടെ തുറക്കപ്പെടും.</string>
+  <string name="splash_countdown_running">നിങ്ങൾക്കായി അവസാനത്തെ കുറച്ച് ഭാഗങ്ങൾ ലോഡ് ചെയ്യുന്നു. . .</string>
+  <string name="splash_ad_loaded">ഏകദേശം പൂർത്തിയായി. അടുത്ത സ്ക്രീൻ തയ്യാറാക്കുന്നു.</string>
+  <string name="splash_ads_unavailable">മുന്നോട്ട് പോകുകയും നിങ്ങൾക്കുള്ള സജ്ജീകരണം പൂർത്തിയാക്കുകയും ചെയ്യുന്നു.</string>
+  <string name="splash_showing_ad">ലോഡ് ചെയ്തു കഴിയുമ്പോൾ ഒരു ചെറിയ സ്റ്റോപ്പ്.</string>
+  <string name="splash_ready_to_enter_app">തയ്യാറാണ്. ഇപ്പോൾ നിങ്ങളെ കൊണ്ടുപോകുന്നു.</string>
+  <string name="splash_countdown_early">നിങ്ങളുടെ ഉള്ളടക്കം കൊണ്ടുവരുന്നു. . .</string>
+  <string name="splash_countdown_mid">പശ്ചാത്തലത്തിൽ ഇപ്പോഴും ലോഡ് ചെയ്യുന്നു. ഏതാണ്ട് പൂർത്തിയായി.</string>
+  <string name="splash_countdown_late">ഭാരമേറിയ ജോലികൾ കഴിഞ്ഞു. ഇപ്പോൾ തുറക്കുന്നു. . .</string>
+</resources>

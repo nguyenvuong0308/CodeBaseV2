@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">உங்கள் இடத்தை தயார் செய்தல்…</string>
+  <string name="splash_waiting_for_internet">உங்கள் அரட்டை தடையின்றி இயங்குவதற்காக இணைப்புக்காகக் காத்திருக்கிறது.</string>
+  <string name="splash_waiting_for_consent">உங்கள் அமைப்புகளைச் செயல்படுத்துவதன் மூலம் அனைத்தும் சரியான முறையில் திறக்கும்.</string>
+  <string name="splash_countdown_running">உங்களுக்காக கடைசி சில பகுதிகளை ஏற்றுகிறது…</string>
+  <string name="splash_ad_loaded">கிட்டத்தட்ட முடிந்துவிட்டது. அடுத்த திரையைத் தயார் செய்து கொண்டிருக்கிறேன்.</string>
+  <string name="splash_ads_unavailable">முன்னோக்கிச் சென்று உங்களுக்கான அமைப்பை முடித்துவிடுகிறேன்.</string>
+  <string name="splash_showing_ad">நான் ஏற்றுவதை முடிக்கும் வரை ஒரு சிறு நிறுத்தம்.</string>
+  <string name="splash_ready_to_enter_app">தயார். இப்போது உங்களை உள்ளே அழைத்து வருகிறோம்.</string>
+  <string name="splash_countdown_early">உங்கள் உள்ளடக்கத்தைக் கொண்டு வருகிறோம்…</string>
+  <string name="splash_countdown_mid">பின்னணியில் இன்னும் ஏற்றப்பட்டு வருகிறது. கிட்டத்தட்ட முடித்துவிட்டோம்.</string>
+  <string name="splash_countdown_late">கடினமான வேலைகள் முடிந்துவிட்டன. இப்போது திறக்கப்படுகிறது…</string>
+</resources>

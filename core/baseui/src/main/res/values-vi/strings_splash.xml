@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Chuẩn bị không gian của bạn…</string>
+  <string name="splash_waiting_for_internet">Đang chờ kết nối để cuộc trò chuyện của bạn được tải mượt mà.</string>
+  <string name="splash_waiting_for_consent">Áp dụng các thiết lập của bạn để mọi thứ mở đúng cách.</string>
+  <string name="splash_countdown_running">Đang tải những mục cuối cùng cho bạn…</string>
+  <string name="splash_ad_loaded">Gần xong rồi. Đang chuẩn bị màn hình tiếp theo.</string>
+  <string name="splash_ads_unavailable">Tôi sẽ bỏ qua một số bước và hoàn tất thiết lập cho bạn.</string>
+  <string name="splash_showing_ad">Tôi sẽ dừng lại một chút trong khi chất hàng xong.</string>
+  <string name="splash_ready_to_enter_app">Sẵn sàng. Đang đón bạn vào.</string>
+  <string name="splash_countdown_early">Đưa nội dung của bạn vào…</string>
+  <string name="splash_countdown_mid">Đang tải trong nền. Gần xong rồi.</string>
+  <string name="splash_countdown_late">Đã hoàn tất phần việc nặng nhọc. Giờ thì mở cửa rồi…</string>
+</resources>

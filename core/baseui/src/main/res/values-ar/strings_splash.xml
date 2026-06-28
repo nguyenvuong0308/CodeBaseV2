@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">تجهيز مساحتك…</string>
+  <string name="splash_waiting_for_internet">في انتظار الاتصال حتى يتم تحميل محادثتك بسلاسة.</string>
+  <string name="splash_waiting_for_consent">جارٍ تطبيق إعداداتك لضمان فتح كل شيء بالطريقة الصحيحة.</string>
+  <string name="splash_countdown_running">جارٍ تحميل القطع الأخيرة لك. . .</string>
+  <string name="splash_ad_loaded">أوشكنا على الانتهاء. جارٍ تجهيز الشاشة التالية.</string>
+  <string name="splash_ads_unavailable">سأنتقل مباشرةً إلى الخطوة التالية وأكمل الإعداد نيابةً عنك.</string>
+  <string name="splash_showing_ad">توقف سريع ريثما أنتهي من التحميل.</string>
+  <string name="splash_ready_to_enter_app">جاهزون. سأدخلك الآن.</string>
+  <string name="splash_countdown_early">جارٍ إدخال المحتوى الخاص بك. . .</string>
+  <string name="splash_countdown_mid">لا يزال التحميل جارياً في الخلفية. اقتربنا من الانتهاء.</string>
+  <string name="splash_countdown_late">انتهينا من العمل الشاق. الافتتاح الآن…</string>
+</resources>

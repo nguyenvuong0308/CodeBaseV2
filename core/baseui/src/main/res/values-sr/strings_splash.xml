@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Припрема вашег простора…</string>
+  <string name="splash_waiting_for_internet">Чека се веза како би се ваш чет могао глатко учитати.</string>
+  <string name="splash_waiting_for_consent">Примењујем подешавања тако да се све отвара на прави начин.</string>
+  <string name="splash_countdown_running">Учитавају се последњих неколико делова за вас…</string>
+  <string name="splash_ad_loaded">Скоро готово. Припрема следећег екрана.</string>
+  <string name="splash_ads_unavailable">Прескачем унапред и завршавам подешавање уместо вас.</string>
+  <string name="splash_showing_ad">Једна кратка пауза док завршавам са утоваром.</string>
+  <string name="splash_ready_to_enter_app">Спремни. Уводим те сада.</string>
+  <string name="splash_countdown_early">Уносите свој садржај…</string>
+  <string name="splash_countdown_mid">Још увек се учитава у позадини. Скоро је готово.</string>
+  <string name="splash_countdown_late">Готово са тешким послом. Сада отварамо…</string>
+</resources>

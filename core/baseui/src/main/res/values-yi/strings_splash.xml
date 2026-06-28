@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">צוגרייטן דיין פּלאַץ. . .</string>
+  <string name="splash_waiting_for_internet">ווארט אויף קאנעקשאן כדי אייער טשעט זאל זיך קענען לאודן גלאט.</string>
+  <string name="splash_waiting_for_consent">אנװענדן דיינע סעטינגס כדי אלעס זאל זיך עפענען אויפן ריכטיגן וועג.</string>
+  <string name="splash_countdown_running">לאָדן די לעצטע פּאָר שטיקלעך פֿאַר דיר…</string>
+  <string name="splash_ad_loaded">כּמעט פֿאַרטיק. איך גרייט צו דעם קומענדיקן עקראַן.</string>
+  <string name="splash_ads_unavailable">איך גיי ווייטער און ענדיג די סעטאַפּ פֿאַר דיר.</string>
+  <string name="splash_showing_ad">איין שנעלע אפשטעל בשעת איך ענדיג לאודן.</string>
+  <string name="splash_ready_to_enter_app">גרייט. איך נעעם דיך אריין יעצט.</string>
+  <string name="splash_countdown_early">ברענג אריין דיין אינהאַלט…</string>
+  <string name="splash_countdown_mid">נאך אלץ לאָודינג אין הינטערגרונט. כמעט דאָרט.</string>
+  <string name="splash_countdown_late">פארטיג מיט די שווערע ארבעטן. יעצט עפענט זיך. . .</string>
+</resources>

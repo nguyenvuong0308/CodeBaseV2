@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">お部屋の準備を始めよう…</string>
+  <string name="splash_waiting_for_internet">チャットがスムーズに読み込まれるよう、接続をお待ちしています。</string>
+  <string name="splash_waiting_for_consent">設定を適用して、すべてが正しく開くようにします。</string>
+  <string name="splash_countdown_running">最後の数点を読み込んでいます…</string>
+  <string name="splash_ad_loaded">もうすぐ完了です。次の画面を準備しています。</string>
+  <string name="splash_ads_unavailable">先に進んで、設定を完了させておきましょう。</string>
+  <string name="splash_showing_ad">荷積みが終わるまでちょっと立ち寄ります。</string>
+  <string name="splash_ready_to_enter_app">準備完了。今からご案内します。</string>
+  <string name="splash_countdown_early">コンテンツを取り込む…</string>
+  <string name="splash_countdown_mid">バックグラウンドで読み込み中です。もうすぐ完了します。</string>
+  <string name="splash_countdown_late">大変な作業は終わりました。さあ、開店です…</string>
+</resources>

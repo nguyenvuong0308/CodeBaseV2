@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Paratoi eich lle…</string>
+  <string name="splash_waiting_for_internet">Yn aros am gysylltiad fel y gall eich sgwrs lwytho\'n esmwyth.</string>
+  <string name="splash_waiting_for_consent">Yn cymhwyso eich gosodiadau fel bod popeth yn agor yn y ffordd gywir.</string>
+  <string name="splash_countdown_running">Yn llwytho\'r darnau olaf i chi…</string>
+  <string name="splash_ad_loaded">Bron â gorffen. Yn paratoi\'r sgrin nesaf.</string>
+  <string name="splash_ads_unavailable">Neidio ymlaen ac yn gorffen y gosodiad i chi.</string>
+  <string name="splash_showing_ad">Un stop cyflym tra byddaf yn gorffen llwytho.</string>
+  <string name="splash_ready_to_enter_app">Yn barod. Rydw i\'n mynd â chi i mewn nawr.</string>
+  <string name="splash_countdown_early">Yn dod â\'ch cynnwys i mewn…</string>
+  <string name="splash_countdown_mid">Yn dal i lwytho yn y cefndir. Bron yno.</string>
+  <string name="splash_countdown_late">Wedi gorffen gyda\'r gwaith trwm. Ar agor nawr…</string>
+</resources>

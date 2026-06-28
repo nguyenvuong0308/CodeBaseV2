@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">మీ స్థలాన్ని సిద్ధం చేసుకోవడం…</string>
+  <string name="splash_waiting_for_internet">మీ చాట్ సజావుగా లోడ్ అవ్వడం కోసం కనెక్షన్ వేచి ఉంది.</string>
+  <string name="splash_waiting_for_consent">మీ సెట్టింగ్‌లను వర్తింపజేయడం వలన ప్రతిదీ సరైన పద్ధతిలో తెరుచుకుంటుంది.</string>
+  <string name="splash_countdown_running">మీ కోసం చివరి కొన్ని భాగాలను లోడ్ చేస్తున్నాను…</string>
+  <string name="splash_ad_loaded">దాదాపు పూర్తయింది. తదుపరి స్క్రీన్‌ను సిద్ధం చేస్తున్నాము.</string>
+  <string name="splash_ads_unavailable">ముందుకు వెళ్లి మీ కోసం సెటప్‌ను పూర్తి చేస్తున్నాను.</string>
+  <string name="splash_showing_ad">లోడింగ్ పూర్తి చేసేలోపు ఒక చిన్న విరామం.</string>
+  <string name="splash_ready_to_enter_app">సిద్ధం. ఇప్పుడు మిమ్మల్ని లోపలికి తీసుకువెళ్తున్నాము.</string>
+  <string name="splash_countdown_early">మీ కంటెంట్‌ను తీసుకురావడం…</string>
+  <string name="splash_countdown_mid">నేపథ్యంలో ఇంకా లోడ్ అవుతోంది. దాదాపుగా పూర్తయింది.</string>
+  <string name="splash_countdown_late">కష్టమైన పనులన్నీ పూర్తయ్యాయి. ఇప్పుడు తెరుస్తున్నాము…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">ඔබේ ඉඩ සූදානම් කරමින්. . .</string>
+  <string name="splash_waiting_for_internet">ඔබගේ කතාබහ සුමටව පූරණය කළ හැකි වන පරිදි සම්බන්ධතාවය සඳහා රැඳී සිටිමින්.</string>
+  <string name="splash_waiting_for_consent">සියල්ල නිවැරදි ආකාරයෙන් විවෘත වන පරිදි ඔබගේ සැකසුම් යෙදීම.</string>
+  <string name="splash_countdown_running">ඔබ වෙනුවෙන් අවසාන කොටස් කිහිපය පූරණය කරමින්. . .</string>
+  <string name="splash_ad_loaded">බොහෝ දුරට අවසන්. ඊළඟ තිරය සූදානම් කරමින්.</string>
+  <string name="splash_ads_unavailable">ඉදිරියට ගොස් ඔබ වෙනුවෙන් සැකසුම අවසන් කරමින්.</string>
+  <string name="splash_showing_ad">මම පූරණය කරලා ඉවර වෙනකම් එක ඉක්මන් නැවතුමක්.</string>
+  <string name="splash_ready_to_enter_app">සූදානම්. දැන් ඔබව ඇතුළට ගන්නවා.</string>
+  <string name="splash_countdown_early">ඔබේ අන්තර්ගතය ගෙන ඒම. . .</string>
+  <string name="splash_countdown_mid">තවමත් පසුබිමේ පූරණය වෙමින් පවතී. ළඟදීම එතනට.</string>
+  <string name="splash_countdown_late">බර ඉසිලීම අවසන්. දැන් විවෘත වේ…</string>
+</resources>

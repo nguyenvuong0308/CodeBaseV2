@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Ձեր տարածքը պատրաստվում է…</string>
+  <string name="splash_waiting_for_internet">Սպասում ենք կապի, որպեսզի ձեր զրույցը սահուն բեռնվի։</string>
+  <string name="splash_waiting_for_consent">Կիրառվում են ձեր կարգավորումները, որպեսզի ամեն ինչ ճիշտ ձևով բացվի։</string>
+  <string name="splash_countdown_running">Վերջին մի քանի մասերը բեռնվում են ձեզ համար…</string>
+  <string name="splash_ad_loaded">Գրեթե պատրաստ է։ Հաջորդ էկրանը պատրաստվում է։</string>
+  <string name="splash_ads_unavailable">Առաջ ենք անցնում և կարգավորումն ավարտվում է ձեզ համար։</string>
+  <string name="splash_showing_ad">Մեկ արագ կանգառ, մինչև բեռնումն ավարտեմ։</string>
+  <string name="splash_ready_to_enter_app">Պատրաստ է։ Հիմա ընդունում ենք ձեզ։</string>
+  <string name="splash_countdown_early">Ձեր բովանդակության ներմուծումը…</string>
+  <string name="splash_countdown_mid">Դեռևս բեռնվում է ֆոնային ռեժիմով։ Գրեթե պատրաստ է։</string>
+  <string name="splash_countdown_late">Ծանր գործերն ավարտվեցին։ Բացվում է հիմա…</string>
+</resources>

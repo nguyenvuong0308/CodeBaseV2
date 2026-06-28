@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Һеҙҙең урынды әҙерләү. . .</string>
+  <string name="splash_waiting_for_internet">Тоташыу көтә, шулай итеп, һеҙҙең ч тейәп була тигеҙ.</string>
+  <string name="splash_waiting_for_consent">Һеҙҙең параметрҙарҙы ҡулланыу, шулай итеп, барыһы ла дөрөҫ юл аса.</string>
+  <string name="splash_countdown_running">Һуңғы бер нисә өлөшөн һеҙҙең өсөн тейәп. . .</string>
+  <string name="splash_ad_loaded">Бөттө тиерлек. Киләһе экранды әҙерләү.</string>
+  <string name="splash_ads_unavailable">Алға һикереп һәм һеҙҙең өсөн настройка тамамлау.</string>
+  <string name="splash_showing_ad">Мин тейәп бөткәнсе бер тиҙ туҡталыш.</string>
+  <string name="splash_ready_to_enter_app">Әҙер. Һине хәҙер үк индереп.</string>
+  <string name="splash_countdown_early">Һеҙҙең йөкмәткене индереү. . .</string>
+  <string name="splash_countdown_mid">Һаман да артҡы планда йөкләнә. Яҡынса шунда.</string>
+  <string name="splash_countdown_late">Ауыр күтәреү менән эшләнде. Хәҙер асыла. . .</string>
+</resources>

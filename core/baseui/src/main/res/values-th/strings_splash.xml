@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">เตรียมพื้นที่ของคุณให้พร้อม…</string>
+  <string name="splash_waiting_for_internet">กำลังรอการเชื่อมต่อเพื่อให้แชทของคุณโหลดได้อย่างราบรื่น</string>
+  <string name="splash_waiting_for_consent">ตั้งค่าต่างๆ เพื่อให้ทุกอย่างเปิดได้อย่างถูกต้อง</string>
+  <string name="splash_countdown_running">กำลังโหลดชิ้นส่วนสุดท้ายให้คุณ. . .</string>
+  <string name="splash_ad_loaded">เกือบเสร็จแล้ว กำลังเตรียมหน้าจอถัดไป</string>
+  <string name="splash_ads_unavailable">ข้ามขั้นตอนนี้ไปและทำการตั้งค่าให้เสร็จสมบูรณ์ให้คุณเลย</string>
+  <string name="splash_showing_ad">แวะแป๊บเดียวระหว่างที่ผมกำลังขนของเสร็จครับ</string>
+  <string name="splash_ready_to_enter_app">พร้อมแล้ว กำลังพาคุณเข้าไปค่ะ</string>
+  <string name="splash_countdown_early">กำลังนำเนื้อหาของคุณเข้ามา. . .</string>
+  <string name="splash_countdown_mid">กำลังโหลดข้อมูลอยู่เบื้องหลัง ใกล้เสร็จแล้ว</string>
+  <string name="splash_countdown_late">เสร็จสิ้นขั้นตอนที่ยุ่งยากแล้ว เปิดให้บริการแล้ว…</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="splash_fetching_remote_config">Ag ullmhú do spáis…</string>
+  <string name="splash_waiting_for_internet">Ag fanacht le nasc ionas gur féidir le do chomhrá lódáil go réidh.</string>
+  <string name="splash_waiting_for_consent">Ag cur do shocruithe i bhfeidhm ionas go n-osclófar gach rud ar an mbealach ceart.</string>
+  <string name="splash_countdown_running">Ag lódáil na píosaí deireanacha duit…</string>
+  <string name="splash_ad_loaded">Beagnach críochnaithe. Ag ullmhú an chéad scáileán eile.</string>
+  <string name="splash_ads_unavailable">Ag léim ar aghaidh agus ag críochnú an tsocraithe duit.</string>
+  <string name="splash_showing_ad">Stad amháin agus mé ag críochnú an luchtaithe.</string>
+  <string name="splash_ready_to_enter_app">Réidh. Ag glacadh isteach thú anois.</string>
+  <string name="splash_countdown_early">Ag tabhairt isteach d’ábhar…</string>
+  <string name="splash_countdown_mid">Ag lódáil sa chúlra fós. Beagnach ann.</string>
+  <string name="splash_countdown_late">Déanta leis an obair throm. Ag oscailt anois…</string>
+</resources>
