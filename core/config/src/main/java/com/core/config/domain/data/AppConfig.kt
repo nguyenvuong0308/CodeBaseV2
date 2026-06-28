@@ -26,9 +26,10 @@ data class AppConfig(
     <!--0 = không có ads-->
     <!--1 = Có ads-->
     <!--2 = Full ads-->
-     */
+    */
     val introData: List<Int>,
     val introDataV2: List<Int>,
+    val introDataV3: List<Int>,
 ) {
     override fun toString(): String {
         val builder = StringBuilder()
@@ -45,7 +46,9 @@ data class AppConfig(
             .append("isEnableOpenAppAdsFromUninstallShortcut = ").append(isEnableOpenAppAdsFromUninstallShortcut).append(",\n")
             .append("isEnableOpenAppAdsFromShortcut = ").append(isEnableOpenAppAdsFromShortcut).append(",\n")
             .append("introActionShowType = ").append(introActionShowType).append(",\n")
-            .append("introData = ").append(introData)
+            .append("introData = ").append(introData).append(",\n")
+            .append("introDataV2 = ").append(introDataV2).append(",\n")
+            .append("introDataV3 = ").append(introDataV3)
         return builder.toString()
     }
 
