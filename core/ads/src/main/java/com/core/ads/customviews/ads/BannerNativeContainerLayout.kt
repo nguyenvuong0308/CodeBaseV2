@@ -314,6 +314,9 @@ class BannerNativeContainerLayout @JvmOverloads constructor(
         }
     }
 
+    fun paddingAdTop(padding: Int) {
+        (getCurrentNativeTemplateView() as? NativeFullCtaBottomOnboardingTemplateView)?.paddingTop(padding)
+    }
 
     fun processAdResource(adResource: AdLoadBannerNativeUiResource, placeName: IAdPlaceName, canVisible: Boolean = true, isHideNativeBannerWhenNetworkError: Boolean = false) {
         Timber.d("processAdResource adResource $adResource")

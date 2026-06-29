@@ -10,7 +10,6 @@
         android:layout_height="match_parent"
         tools:background="@color/white">
 
-
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/ad_notification_view"
             style="@style/AdsNotificationViewStyle"

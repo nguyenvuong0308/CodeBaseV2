@@ -21,7 +21,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LibCore"
+rootProject.name = "LibCoreNext"
 
 include(":app")
 include(":core")

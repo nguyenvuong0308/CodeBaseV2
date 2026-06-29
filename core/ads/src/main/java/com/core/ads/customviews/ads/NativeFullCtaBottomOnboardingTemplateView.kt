@@ -36,6 +36,10 @@ class NativeFullCtaBottomOnboardingTemplateView @JvmOverloads constructor(
 
     private fun initView(context: Context) {}
 
+    fun paddingTop(padding: Int) {
+        binding.adNotificationView.margin(top = padding)
+    }
+
     override fun setNativeAd(nativeAd: NativeAd) {
 
         binding.nativeAdView.callToActionView = binding.cta
