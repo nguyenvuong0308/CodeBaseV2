@@ -217,7 +217,7 @@
             "place_name": "anchored_full_onboarding_v2",
             "ad_id": "ca-app-pub-3940256099942544/2247696110",
             "ad_type": "native",
-            "native_template_size": "full_cta_bottom",
+            "native_template_size": "full_cta_bottom_onboarding",
             "is_enable": true,
             "background_color": "#FFFFFF",
             "background_full_color": "#000",
