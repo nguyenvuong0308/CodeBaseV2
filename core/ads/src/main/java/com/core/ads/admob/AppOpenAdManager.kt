@@ -47,7 +47,8 @@ class AppOpenAdManager @Inject constructor(
     private val remoteConfigRepository: RemoteConfigRepository,
     private val adManager: AdsManager,
     private val reOpenShowCondition: ReOpenShowCondition,
-    private val adjustAnalytics: AdjustAnalytics
+    private val adjustAnalytics: AdjustAnalytics,
+    private val reopenAction: ReopenAction
 ) : LifecycleObserver, Application.ActivityLifecycleCallbacks {
 
     companion object {
@@ -79,7 +80,11 @@ class AppOpenAdManager @Inject constructor(
         currentActivity?.let { activity ->
             applicationScope.launch {
                 delay(remoteConfigRepository.getAppOpenAdConfig().timeMillisDelayBeforeShow)
-                showAdIfAvailable(activity, CoreAdPlaceName.APP_REOPEN)
+                if(!reopenAction.isCustomAction()) {
+                    showAdIfAvailable(activity, CoreAdPlaceName.APP_REOPEN)
+                } else {
+                    reopenAction.reopenAction(activity)
+                }
             }
         }
     }
@@ -96,7 +101,9 @@ class AppOpenAdManager @Inject constructor(
             return
         }
         currentActivity?.let {
-            fetchAd(it, CoreAdPlaceName.APP_REOPEN)
+            if(!reopenAction.isCustomAction()) {
+                fetchAd(it, CoreAdPlaceName.APP_REOPEN)
+            }
         }
     }
 
