@@ -83,7 +83,9 @@ class AppOpenAdManager @Inject constructor(
                 if(!reopenAction.isCustomAction()) {
                     showAdIfAvailable(activity, CoreAdPlaceName.APP_REOPEN)
                 } else {
-                    reopenAction.reopenAction(activity)
+                    if(!adManager.isHasFullscreenAdShowing()) {
+                        reopenAction.reopenAction(activity)
+                    }
                 }
             }
         }
