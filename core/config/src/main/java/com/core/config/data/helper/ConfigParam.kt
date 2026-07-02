@@ -46,129 +46,129 @@ internal sealed class ConfigParam<T : Any> {
         const val MAX_RETRY_ON_CONTEXT = 2
     }
 
-    internal object AppConfig: ConfigParam<AppConfigModel>() {
+    internal object AppSettings : ConfigParam<AppConfigModel>() {
 
-        override val key = "application_config"
-
-    }
-
-    internal object IapConfig: ConfigParam<IapConfigModel>() {
-
-        override val key = "iap_config"
+        override val key = "app_config"
 
     }
 
-    internal object PreventAdClickConfigParam: ConfigParam<PreventAdClickConfigModel>() {
+    internal object PurchaseConfig : ConfigParam<IapConfigModel>() {
 
-        override val key = "prevent_ad_click_config"
-
-    }
-
-    internal object AdsDisabledByCountryParam: ConfigParam<String>() {
-
-        override val key = "ads_disabled_by_country"
+        override val key = "purchase_config"
 
     }
 
-    internal object AdPlacesDisableWhenDetectTestAdParam: ConfigParam<String>() {
+    internal object AdClickGuardConfig : ConfigParam<PreventAdClickConfigModel>() {
 
-        override val key = "ad_places_disable_when_detect_test_ad"
-
-    }
-
-    internal object IsTurnOnAdPlacesDisabledWhenDetectTestAdParam: ConfigParam<Boolean>() {
-
-        override val key = "is_turn_on_ad_places_disabled_when_detect_test_ad"
+        override val key = "ad_click_guard_config"
 
     }
 
-    internal object SplashScreenConfigParam: ConfigParam<SplashScreenConfigModel>() {
+    internal object DisabledAdCountries : ConfigParam<String>() {
 
-        override val key = "splash_screen_config"
-
-    }
-
-    internal object AdPlacesVersionConfigParam: ConfigParam<com.core.config.data.model.AdPlacesVersionConfigModel>() {
-
-        override val key = "ad_places_version_config"
+        override val key = "ad_disabled_countries"
 
     }
 
-    internal object BannerNativeAdPlaces: ConfigParam<AdPlaceModel>() {
+    internal object TestAdDetectedDisabledPlacements : ConfigParam<String>() {
 
-        override val key = "banner_native_ad_places"
-
-    }
-
-    internal object BannerNativeAdPlaces2: ConfigParam<AdPlaceModel>() {
-
-        override val key = "banner_native_ad_places_2"
+        override val key = "test_ad_detected_disabled_placements"
 
     }
 
-    internal object AppOpenAdPlaces: ConfigParam<AdPlaceModel>() {
+    internal object TestAdDetectionPlacementFilterEnabled : ConfigParam<Boolean>() {
 
-        override val key = "app_open_ad_places"
-
-    }
-
-    internal object AppOpenAdPlaces2: ConfigParam<AdPlaceModel>() {
-
-        override val key = "app_open_ad_places_2"
+        override val key = "is_test_ad_detection_placement_filter_enabled"
 
     }
 
-    internal object RewardedRewardedInterInterAdPlaces: ConfigParam<AdPlaceModel>() {
+    internal object SplashAdConfig : ConfigParam<SplashScreenConfigModel>() {
 
-        override val key = "rewarded_rewardedinter_inter_ad_places"
-
-    }
-
-    internal object RewardedRewardedInterInterAdPlaces2: ConfigParam<AdPlaceModel>() {
-
-        override val key = "rewarded_rewardedinter_inter_ad_places_2"
+        override val key = "splash_ad_config"
 
     }
 
-    internal object BannerAdsParam: ConfigParam<BannerAdConfigModel>() {
+    internal object VersionedAdPlacementConfig : ConfigParam<com.core.config.data.model.AdPlacesVersionConfigModel>() {
 
-        override val key = "banner_ad_config"
-
-    }
-
-    internal object NativeAdsParam: ConfigParam<NativeAdConfigModel>() {
-
-        override val key = "native_ad_config"
+        override val key = "versioned_ad_placement_config"
 
     }
 
-    internal object InterstitialAdsParam: ConfigParam<InterstitialAdConfigModel>() {
+    internal object BannerNativeAdPlacements : ConfigParam<AdPlaceModel>() {
 
-        override val key = "interstitial_ad_config"
-
-    }
-
-    internal object InterstitialRewardedAdsParam: ConfigParam<RewardedInterstitialAdConfigModel>() {
-
-        override val key = "rewarded_interstitial_ad_config"
+        override val key = "banner_native_ad_placements"
 
     }
 
-    internal object RewardedAdsParam: ConfigParam<RewardedAdConfigModel>() {
+    internal object BannerNativeAdPlacementOverride : ConfigParam<AdPlaceModel>() {
 
-        override val key = "rewarded_ad_config"
-
-    }
-
-    internal object AppOpenAdsParam: ConfigParam<AppOpenAdConfigModel>() {
-
-        override val key = "app_open_ad_config"
+        override val key = "banner_native_ad_placement_override"
 
     }
 
-    internal object RequestConsentConfigParam: ConfigParam<RequestConsentConfigModel>() {
+    internal object AppOpenAdPlacements : ConfigParam<AdPlaceModel>() {
 
-        override val key = "request_consent_config"
+        override val key = "app_open_ad_placements"
+
+    }
+
+    internal object AppOpenAdPlacementOverride : ConfigParam<AdPlaceModel>() {
+
+        override val key = "app_open_ad_placement_override"
+
+    }
+
+    internal object FullscreenAdPlacements : ConfigParam<AdPlaceModel>() {
+
+        override val key = "fullscreen_ad_placements"
+
+    }
+
+    internal object FullscreenAdPlacementOverride : ConfigParam<AdPlaceModel>() {
+
+        override val key = "fullscreen_ad_placement_override"
+
+    }
+
+    internal object BannerAdSettings : ConfigParam<BannerAdConfigModel>() {
+
+        override val key = "banner_ad_settings"
+
+    }
+
+    internal object NativeAdSettings : ConfigParam<NativeAdConfigModel>() {
+
+        override val key = "native_ad_settings"
+
+    }
+
+    internal object InterstitialAdSettings : ConfigParam<InterstitialAdConfigModel>() {
+
+        override val key = "interstitial_ad_settings"
+
+    }
+
+    internal object RewardedInterstitialAdSettings : ConfigParam<RewardedInterstitialAdConfigModel>() {
+
+        override val key = "rewarded_interstitial_ad_settings"
+
+    }
+
+    internal object RewardedAdSettings : ConfigParam<RewardedAdConfigModel>() {
+
+        override val key = "rewarded_ad_settings"
+
+    }
+
+    internal object AppOpenAdSettings : ConfigParam<AppOpenAdConfigModel>() {
+
+        override val key = "app_open_ad_settings"
+
+    }
+
+    internal object ConsentRequestConfig : ConfigParam<RequestConsentConfigModel>() {
+
+        override val key = "consent_request_config"
 
     }
 }

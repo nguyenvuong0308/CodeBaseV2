@@ -103,108 +103,108 @@ class RemoteConfigService @Inject constructor(
     internal fun getAppConfig(): AppConfigModel? {
         return remoteConfig.read(
             moshi,
-            ConfigParam.AppConfig
+            ConfigParam.AppSettings
         )
     }
 
     internal fun getIapConfig(): IapConfigModel? {
         return remoteConfig.read(
             moshi,
-            ConfigParam.IapConfig
+            ConfigParam.PurchaseConfig
         )
     }
 
     internal fun getPreventAdClickConfig(): PreventAdClickConfigModel? {
         return remoteConfig.read(
             moshi,
-            ConfigParam.PreventAdClickConfigParam
+            ConfigParam.AdClickGuardConfig
         )
     }
 
     internal fun getAdsDisableByCountry(): List<String> {
         return remoteConfig.readList(
             moshi,
-            ConfigParam.AdsDisabledByCountryParam
+            ConfigParam.DisabledAdCountries
         )
     }
 
     internal fun getAdPlacesDisableWhenDetectTestAd(): List<String> {
         return remoteConfig.readList(
             moshi,
-            ConfigParam.AdPlacesDisableWhenDetectTestAdParam
+            ConfigParam.TestAdDetectedDisabledPlacements
         )
     }
 
     internal fun isTurnOnAdPlacesDisabledWhenDetectTestAd(): Boolean {
         return remoteConfig.getBoolean(
-            ConfigParam.IsTurnOnAdPlacesDisabledWhenDetectTestAdParam.key
+            ConfigParam.TestAdDetectionPlacementFilterEnabled.key
         )
     }
 
     internal fun getSplashScreenConfig(): SplashScreenConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.SplashScreenConfigParam
+            moshi, ConfigParam.SplashAdConfig
         )
     }
 
-    internal fun getBannerNativeAdPlaces(): List<AdPlaceModel> {
-        return getAdPlacesByConfigKeys(
+    internal fun getBannerNativeAdPlacements(): List<AdPlaceModel> {
+        return getAdPlacementsByConfigKeys(
             versionedKeySelector = { it.bannerNative },
-            fallbackOverrideKey = ConfigParam.BannerNativeAdPlaces2.key,
-            defaultKey = ConfigParam.BannerNativeAdPlaces.key,
+            fallbackOverrideKey = ConfigParam.BannerNativeAdPlacementOverride.key,
+            defaultKey = ConfigParam.BannerNativeAdPlacements.key,
         )
     }
 
-    internal fun getAppOpenAdPlaces(): List<AdPlaceModel> {
-        return getAdPlacesByConfigKeys(
+    internal fun getAppOpenAdPlacements(): List<AdPlaceModel> {
+        return getAdPlacementsByConfigKeys(
             versionedKeySelector = { it.appOpen },
-            fallbackOverrideKey = ConfigParam.AppOpenAdPlaces2.key,
-            defaultKey = ConfigParam.AppOpenAdPlaces.key,
+            fallbackOverrideKey = ConfigParam.AppOpenAdPlacementOverride.key,
+            defaultKey = ConfigParam.AppOpenAdPlacements.key,
         )
     }
 
-    internal fun getRewardedRewardedInterInterAdPlaces(): List<AdPlaceModel> {
-        return getAdPlacesByConfigKeys(
+    internal fun getFullscreenAdPlacements(): List<AdPlaceModel> {
+        return getAdPlacementsByConfigKeys(
             versionedKeySelector = { it.rewardInter },
-            fallbackOverrideKey = ConfigParam.RewardedRewardedInterInterAdPlaces2.key,
-            defaultKey = ConfigParam.RewardedRewardedInterInterAdPlaces.key,
+            fallbackOverrideKey = ConfigParam.FullscreenAdPlacementOverride.key,
+            defaultKey = ConfigParam.FullscreenAdPlacements.key,
         )
     }
 
-    private fun getAdPlacesByConfigKeys(
+    private fun getAdPlacementsByConfigKeys(
         versionedKeySelector: (AdPlacesVersionKeyModel) -> String?,
         fallbackOverrideKey: String,
         defaultKey: String,
     ): List<AdPlaceModel> {
-        val versionedKey = getVersionedAdPlacesKey(versionedKeySelector)
+        val versionedKey = getVersionedAdPlacementKey(versionedKeySelector)
         if (!versionedKey.isNullOrBlank()) {
-            val versionedList = readAdPlaceList(versionedKey)
+            val versionedList = readAdPlacementList(versionedKey)
             if (versionedList.isNotEmpty()) {
                 return versionedList
             }
         }
 
-        val fallbackOverrideList = readAdPlaceList(fallbackOverrideKey)
+        val fallbackOverrideList = readAdPlacementList(fallbackOverrideKey)
         if (fallbackOverrideList.isNotEmpty()) {
             return fallbackOverrideList
         }
 
-        return readAdPlaceList(defaultKey)
+        return readAdPlacementList(defaultKey)
     }
 
-    private fun getVersionedAdPlacesKey(
+    private fun getVersionedAdPlacementKey(
         versionedKeySelector: (AdPlacesVersionKeyModel) -> String?,
     ): String? {
         val currentVersionCode = getCurrentVersionCode()
         return remoteConfig.readList(
             moshi,
-            ConfigParam.AdPlacesVersionConfigParam
+            ConfigParam.VersionedAdPlacementConfig
         ).firstOrNull { config ->
             config.versionCodes?.contains(currentVersionCode) == true
         }?.key?.let(versionedKeySelector)
     }
 
-    private fun readAdPlaceList(key: String): List<AdPlaceModel> {
+    private fun readAdPlacementList(key: String): List<AdPlaceModel> {
         return try {
             val json = remoteConfig.getString(key)
             if (json.isBlank()) {
@@ -241,43 +241,43 @@ class RemoteConfigService @Inject constructor(
 
     internal fun getBannerAdConfig(): BannerAdConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.BannerAdsParam
+            moshi, ConfigParam.BannerAdSettings
         )
     }
 
     internal fun getNativeAdConfig(): NativeAdConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.NativeAdsParam
+            moshi, ConfigParam.NativeAdSettings
         )
     }
 
     internal fun getInterstitialAdConfig(): InterstitialAdConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.InterstitialAdsParam
+            moshi, ConfigParam.InterstitialAdSettings
         )
     }
 
     internal fun getRewardedInterstitialAdConfig(): RewardedInterstitialAdConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.InterstitialRewardedAdsParam
+            moshi, ConfigParam.RewardedInterstitialAdSettings
         )
     }
 
     internal fun getRewardedAdConfig(): RewardedAdConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.RewardedAdsParam
+            moshi, ConfigParam.RewardedAdSettings
         )
     }
 
     internal fun getAppOpenAdConfig(): AppOpenAdConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.AppOpenAdsParam
+            moshi, ConfigParam.AppOpenAdSettings
         )
     }
 
     internal fun getRequestConsentConfig(): RequestConsentConfigModel? {
         return remoteConfig.read(
-            moshi, ConfigParam.RequestConsentConfigParam
+            moshi, ConfigParam.ConsentRequestConfig
         )
     }
 

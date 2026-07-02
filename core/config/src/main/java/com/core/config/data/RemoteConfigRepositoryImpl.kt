@@ -283,9 +283,9 @@ internal class RemoteConfigRepositoryImpl @Inject constructor(
 
     private fun getAdPlacesRaw(): List<AdPlace> {
         val models = buildList {
-            addAll(remoteConfigService.getBannerNativeAdPlaces())
-            addAll(remoteConfigService.getAppOpenAdPlaces())
-            addAll(remoteConfigService.getRewardedRewardedInterInterAdPlaces())
+            addAll(remoteConfigService.getBannerNativeAdPlacements())
+            addAll(remoteConfigService.getAppOpenAdPlacements())
+            addAll(remoteConfigService.getFullscreenAdPlacements())
         }
         return models.map {
             adPlaceModelMapper.toData(it)

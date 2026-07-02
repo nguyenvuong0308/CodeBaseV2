@@ -17,7 +17,7 @@
 <!--2 = Full ads-->
 <defaults>
     <entry>
-        <key>application_config</key>
+        <key>app_config</key>
         <value>
             {
             "is_hide_navigation_bar": true,
@@ -46,7 +46,7 @@
         </value>
     </entry>
     <entry>
-        <key>prevent_ad_click_config</key>
+        <key>ad_click_guard_config</key>
         <value>
             {
             "max_ad_click_per_session": 6,
@@ -56,7 +56,7 @@
         </value>
     </entry>
     <entry>
-        <key>ads_disabled_by_country</key>
+        <key>ad_disabled_countries</key>
         <value>
             [
             "cx",
@@ -68,7 +68,7 @@
     <!--ad_type_first_open: interstitial hoặc app_open - Lần đầu vào app -->
     <!--ad_type: interstitial hoặc app_open - Từ lần thứ 2 vào app -->
     <entry>
-        <key>splash_screen_config</key>
+        <key>splash_ad_config</key>
         <value>
             {
             "max_time_to_wait_app_open_ad": 10,
@@ -109,7 +109,7 @@
     <!--place_name: ví trí quảng cáo-->
     <!--is_tracking_click: Bật tắt tracking click vào quảng cáo-->
     <entry>
-        <key>banner_native_ad_places</key>
+        <key>banner_native_ad_placements</key>
         <value>
             [
             {
@@ -245,7 +245,7 @@
     <!--reopen_app: open khi resumed app-->
 
     <entry>
-        <key>app_open_ad_places</key>
+        <key>app_open_ad_placements</key>
         <value>
             [
             {
@@ -276,7 +276,7 @@
     <!--ad_type = interstitial - rewarded-->
 
     <entry>
-        <key>rewarded_rewardedinter_inter_ad_places</key>
+        <key>fullscreen_ad_placements</key>
         <value>
             [
             {
@@ -315,7 +315,7 @@
         </value>
     </entry>
     <entry>
-        <key>interstitial_ad_config</key>
+        <key>interstitial_ad_settings</key>
         <value>
             {
             "is_wait_load_to_show": false,
@@ -333,7 +333,7 @@
         </value>
     </entry>
     <entry>
-        <key>rewarded_ad_config</key>
+        <key>rewarded_ad_settings</key>
         <value>
             {
             "is_wait_load_to_show": false,
@@ -348,7 +348,7 @@
         </value>
     </entry>
     <entry>
-        <key>app_open_ad_config</key>
+        <key>app_open_ad_settings</key>
         <value>
             {
             "time_interval": 3,
@@ -364,7 +364,7 @@
         </value>
     </entry>
     <entry>
-        <key>native_ad_config</key>
+        <key>native_ad_settings</key>
         <value>
             {
             "is_enable_retry": true,
@@ -378,7 +378,7 @@
         </value>
     </entry>
     <entry>
-        <key>banner_ad_config</key>
+        <key>banner_ad_settings</key>
         <value>
             {
             "is_enable_retry": true,
@@ -392,7 +392,7 @@
         </value>
     </entry>
     <entry>
-        <key>request_consent_config</key>
+        <key>consent_request_config</key>
         <value>
             {
             "is_enable": true,
