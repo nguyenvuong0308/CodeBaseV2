@@ -39,6 +39,7 @@ internal class AdPlaceModelMapper @Inject constructor(
         }
         val placeName = placeNameApp?: placeNameCore
         val adId = model.adId ?: ""
+        val highFloorAdIds = model.highFloorAdIds.orEmpty().filter { it.isNotBlank() }
         val adType = AdType.getAdTypeBy(model.adType ?: "")
         val isEnable = model.isEnable ?: false
         val isAutoLoadAfterDismiss = model.isAutoLoadAfterDismiss ?: true
@@ -50,6 +51,7 @@ internal class AdPlaceModelMapper @Inject constructor(
             AdType.RewardedVideo -> RewardedVideoAdPlace(
                 placeName = placeName,
                 adId = adId,
+                highFloorAdIds = highFloorAdIds,
                 adType = adType,
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
@@ -60,6 +62,7 @@ internal class AdPlaceModelMapper @Inject constructor(
             AdType.RewardedInterstitial -> RewardedInterstitialAdPlace(
                 placeName = placeName,
                 adId = adId,
+                highFloorAdIds = highFloorAdIds,
                 adType = adType,
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
@@ -70,6 +73,7 @@ internal class AdPlaceModelMapper @Inject constructor(
             AdType.Interstitial -> InterstitialAdPlace(
                 placeName = placeName,
                 adId = adId,
+                highFloorAdIds = highFloorAdIds,
                 adType = adType,
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
@@ -81,6 +85,7 @@ internal class AdPlaceModelMapper @Inject constructor(
             AdType.Native -> NativeAdPlace(
                 placeName = placeName,
                 adId = adId,
+                highFloorAdIds = highFloorAdIds,
                 adType = adType,
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
@@ -110,6 +115,7 @@ internal class AdPlaceModelMapper @Inject constructor(
             AdType.Banner -> BannerAdPlace(
                 placeName = placeName,
                 adId = adId,
+                highFloorAdIds = highFloorAdIds,
                 adType = adType,
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
@@ -123,6 +129,7 @@ internal class AdPlaceModelMapper @Inject constructor(
             AdType.AppOpen -> AppOpenAdPlace(
                 placeName = placeName,
                 adId = adId,
+                highFloorAdIds = highFloorAdIds,
                 adType = adType,
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
