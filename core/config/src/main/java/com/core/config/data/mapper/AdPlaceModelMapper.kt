@@ -44,6 +44,7 @@ internal class AdPlaceModelMapper @Inject constructor(
         val isEnable = model.isEnable ?: false
         val isAutoLoadAfterDismiss = model.isAutoLoadAfterDismiss ?: true
         val isIgnoreInterval = model.isIgnoreInterval ?: false
+        val isTutorialFlow = model.isTutorialFlow ?: false
         val isTrackingClick = model.isTrackingClick ?: false
         val isTrackingShow = model.isTrackingShow ?: false
         val ctaRadius = model.ctaRadius
@@ -56,6 +57,7 @@ internal class AdPlaceModelMapper @Inject constructor(
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
                 isIgnoreInterval = isIgnoreInterval,
+                isTutorialFlow = isTutorialFlow,
                 isTrackingClick = isTrackingClick,
                 isTrackingShow = isTrackingShow
             )
@@ -67,6 +69,7 @@ internal class AdPlaceModelMapper @Inject constructor(
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
                 isIgnoreInterval = isIgnoreInterval,
+                isTutorialFlow = isTutorialFlow,
                 isTrackingClick = isTrackingClick,
                 isTrackingShow = isTrackingShow
             )
@@ -78,6 +81,7 @@ internal class AdPlaceModelMapper @Inject constructor(
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
                 isIgnoreInterval = isIgnoreInterval,
+                isTutorialFlow = isTutorialFlow,
                 isTrackingClick = isTrackingClick,
                 isTrackingShow = isTrackingShow,
                 plusInterval = model.plusInterval ?: 0
@@ -90,6 +94,7 @@ internal class AdPlaceModelMapper @Inject constructor(
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
                 isIgnoreInterval = isIgnoreInterval,
+                isTutorialFlow = isTutorialFlow,
                 nativeTemplateSize = NativeTemplateSize.getSizeBy(model.nativeTemplateSize ?: ""),
                 backgroundCta = model.backgroundCta,
                 borderColor = model.borderColor,
@@ -120,6 +125,7 @@ internal class AdPlaceModelMapper @Inject constructor(
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
                 isIgnoreInterval = isIgnoreInterval,
+                isTutorialFlow = isTutorialFlow,
                 bannerSize = BannerSize.getSizeBy(model.bannerSize ?: ""),
                 isCollapsible = model.isCollapsible ?: false,
                 isTrackingClick = isTrackingClick,
@@ -134,6 +140,7 @@ internal class AdPlaceModelMapper @Inject constructor(
                 isEnable = isEnable,
                 isAutoLoadAfterDismiss = isAutoLoadAfterDismiss,
                 isIgnoreInterval = isIgnoreInterval,
+                isTutorialFlow = isTutorialFlow,
                 limitShow = model.limitShow ?: 10000,
                 isTrackingClick = isTrackingClick,
                 isTrackingShow = isTrackingShow

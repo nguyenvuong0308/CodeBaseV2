@@ -27,6 +27,9 @@ internal data class AdPlaceModel(
     @Json(name = "is_ignore_interval")
     val isIgnoreInterval: Boolean?,
 
+    @Json(name = "is_tutorial_flow")
+    val isTutorialFlow: Boolean?,
+
     // For BannerType (anchored or inline)
     @Json(name = "banner_size")
     val bannerSize: String?,

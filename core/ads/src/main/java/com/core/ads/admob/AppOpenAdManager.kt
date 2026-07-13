@@ -24,6 +24,7 @@ import com.core.config.domain.RemoteConfigRepository
 import com.core.config.domain.data.AdPlace
 import com.core.config.domain.data.IAdPlaceName
 import com.core.config.domain.data.CoreAdPlaceName
+import com.core.ads.model.AppOpenAdHolder
 import com.core.utilities.getCurrentTimeInSecond
 import com.core.utilities.manager.isNetworkConnected
 import com.core.utilities.removeDimForReopenApp
@@ -156,6 +157,10 @@ class AppOpenAdManager @Inject constructor(
         }
         adHolder.isLoading = true
         val waterfallAdUnitIds = adHolder.adPlace.getWaterfallAdUnitIds()
+        if (waterfallAdUnitIds.isEmpty()) {
+            failAppOpenLoadBecauseNoAdUnit(adHolder)
+            return
+        }
         val adUnitId = waterfallAdUnitIds[waterfallIndex]
         val adUnitHolder = appOpenAdUnitHolderMap.getOrPut(adUnitId) { AppOpenAdUnitHolder() }
         if (adUnitHolder.isLoading) {
@@ -349,10 +354,23 @@ class AppOpenAdManager @Inject constructor(
     override fun onActivityDestroyed(activity: Activity) {}
 
     private fun AdPlace.getWaterfallAdUnitIds(): List<String> {
-        return (highFloorAdIds + adId)
+        val tutorialConfig = remoteConfigRepository.getTutorialConfig().takeIf { isTutorialFlow }
+        val availableHighFloorAdIds = if (tutorialConfig?.enableAd1 == false) {
+            emptyList()
+        } else {
+            highFloorAdIds
+        }
+        val availableAdId = if (tutorialConfig?.enableAd2 == false) "" else adId
+        return (availableHighFloorAdIds + availableAdId)
             .filter { it.isNotBlank() }
             .distinct()
-            .ifEmpty { listOf(adId) }
+    }
+
+    private fun failAppOpenLoadBecauseNoAdUnit(adHolder: AppOpenAdHolder) {
+        val placeName = adHolder.adPlace.placeName
+        Log.i(TAG, "AppOpenAd no available ad unit $placeName")
+        adHolder.reset()
+        notifyAdNotValidOrLoadFailed(placeName)
     }
 
     private fun findLoadedAppOpenAdUnitHolder(adPlace: AdPlace): AppOpenAdUnitHolder? {

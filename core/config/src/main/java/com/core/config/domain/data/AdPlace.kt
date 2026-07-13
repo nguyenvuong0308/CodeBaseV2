@@ -21,6 +21,8 @@ sealed class AdPlace {
 
     abstract val isIgnoreInterval: Boolean
 
+    abstract val isTutorialFlow: Boolean
+
 
     fun isNotValidToLoad(): Boolean {
         Log.d("AdmobManager", "adId: $adId isEnable: $isEnable adType: $adType")
@@ -53,6 +55,7 @@ data class RewardedVideoAdPlace(
     override val adType: AdType,
     override val isAutoLoadAfterDismiss: Boolean,
     override val isIgnoreInterval: Boolean,
+    override val isTutorialFlow: Boolean,
 ): AdPlace() {
 }
 
@@ -66,6 +69,7 @@ data class RewardedInterstitialAdPlace(
     override val adType: AdType,
     override val isAutoLoadAfterDismiss: Boolean,
     override val isIgnoreInterval: Boolean,
+    override val isTutorialFlow: Boolean,
 ): AdPlace()
 
 data class InterstitialAdPlace(
@@ -78,6 +82,7 @@ data class InterstitialAdPlace(
     override val adType: AdType,
     override val isAutoLoadAfterDismiss: Boolean,
     override val isIgnoreInterval: Boolean,
+    override val isTutorialFlow: Boolean,
     val plusInterval: Int,
 ): AdPlace()
 
@@ -110,6 +115,7 @@ data class NativeAdPlace(
     override val adType: AdType,
     override val isAutoLoadAfterDismiss: Boolean,
     override val isIgnoreInterval: Boolean,
+    override val isTutorialFlow: Boolean,
 ): AdPlace()
 
 data class BannerAdPlace(
@@ -125,6 +131,7 @@ data class BannerAdPlace(
     override val adType: AdType,
     override val isAutoLoadAfterDismiss: Boolean,
     override val isIgnoreInterval: Boolean,
+    override val isTutorialFlow: Boolean,
 ): AdPlace()
 
 data class AppOpenAdPlace(
@@ -138,6 +145,7 @@ data class AppOpenAdPlace(
     override val adType: AdType,
     override val isAutoLoadAfterDismiss: Boolean,
     override val isIgnoreInterval: Boolean,
+    override val isTutorialFlow: Boolean,
 ): AdPlace()
 
 data class NoneAdPlace(
@@ -150,5 +158,6 @@ data class NoneAdPlace(
     override val adType: AdType = AdType.None,
     override val isAutoLoadAfterDismiss: Boolean = false,
     override val isIgnoreInterval: Boolean = false,
+    override val isTutorialFlow: Boolean = false,
 ): AdPlace()
 

@@ -68,6 +68,16 @@
         </value>
     </entry>
     <entry>
+        <key>tutorial_config</key>
+        <value>
+            {
+            "enable_all_ads": true,
+            "enable_ad_1": true,
+            "enable_ad_2": false
+            }
+        </value>
+    </entry>
+    <entry>
         <key>ad_disabled_countries</key>
         <value>
             [
@@ -216,6 +226,7 @@
             "ad_type": "native",
             "is_tracking_click": true,
             "native_template_size": "small_cta_bottom",
+            "is_tutorial_flow": true,
             "is_enable": true,
             "background_color": "#242424",
             "primary_text_color": "#F0F0F0",
@@ -226,9 +237,11 @@
             {
             "place_name": "anchored_onboarding_bottom_v2",
             "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "high_floor_ad_ids": ["ca-app-pub-3940256099942544/2247696110"],
             "ad_type": "native",
             "is_tracking_click": true,
             "native_template_size": "small_cta_bottom",
+            "is_tutorial_flow": true,
             "is_enable": true,
             "background_color": "#ffffff",
             "primary_text_color": "#1D1D1D",
@@ -240,8 +253,10 @@
             {
             "place_name": "anchored_full_onboarding",
             "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "high_floor_ad_ids": ["ca-app-pub-3940256099942544/2247696110"],
             "ad_type": "native",
             "native_template_size": "full_cta_bottom",
+            "is_tutorial_flow": true,
             "is_enable": true,
             "background_color": "#FFFFFF",
             "background_full_color": "#FFFFFF",
@@ -255,8 +270,10 @@
             {
             "place_name": "anchored_full_onboarding_v2",
             "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "high_floor_ad_ids": ["ca-app-pub-3940256099942544/2247696110"],
             "ad_type": "native",
             "native_template_size": "full_cta_bottom",
+            "is_tutorial_flow": true,
             "is_enable": true,
             "background_color": "#FFFFFF",
             "background_full_color": "#000",
@@ -270,9 +287,11 @@
             {
             "place_name": "anchored_onboarding_bottom_v3",
             "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "high_floor_ad_ids": ["ca-app-pub-3940256099942544/2247696110"],
             "ad_type": "native",
             "is_tracking_click": true,
             "native_template_size": "medium_cta_bottom",
+            "is_tutorial_flow": true,
             "is_enable": true,
             "background_color": "#FCFAFF",
             "primary_text_color": "#141218",
@@ -284,8 +303,10 @@
             {
             "place_name": "anchored_full_onboarding_v3",
             "ad_id": "ca-app-pub-3940256099942544/2247696110",
+            "high_floor_ad_ids": ["ca-app-pub-3940256099942544/2247696110"],
             "ad_type": "native",
             "native_template_size": "full_cta_bottom_onboarding",
+            "is_tutorial_flow": true,
             "is_enable": true,
             "background_color": "#767676,#00000000",
             "background_full_color": "#000",
@@ -578,6 +599,7 @@
             "ad_id": "ca-app-pub-3940256099942544/1033173712",
             "ad_type": "interstitial",
             "is_ignore_interval": true,
+            "is_tutorial_flow": true,
             "is_enable": true
             },
             {
