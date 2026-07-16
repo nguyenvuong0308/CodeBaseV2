@@ -18,7 +18,8 @@ class ReopenActionImpl @Inject constructor(): ReopenAction {
 
     }
 
-    override fun isCustomAction(): Boolean {
+    override fun isCustomAction(activity: Activity): Boolean {
         return if(BuildConfig.DEBUG) true else false
     }
+
 }

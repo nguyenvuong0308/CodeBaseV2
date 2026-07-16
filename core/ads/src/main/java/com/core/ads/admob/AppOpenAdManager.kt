@@ -106,7 +106,7 @@ class AppOpenAdManager @Inject constructor(
         currentActivity?.let { activity ->
             applicationScope.launch {
                 delay(remoteConfigRepository.getAppOpenAdConfig().timeMillisDelayBeforeShow)
-                if(!reopenAction.isCustomAction()) {
+                if(!reopenAction.isCustomAction(activity)) {
                     showAdIfAvailable(activity, CoreAdPlaceName.APP_REOPEN)
                 } else {
                     if(!adManager.isHasFullscreenAdShowing()) {
@@ -129,7 +129,7 @@ class AppOpenAdManager @Inject constructor(
             return
         }
         currentActivity?.let {
-            if(!reopenAction.isCustomAction()) {
+            if(!reopenAction.isCustomAction(it)) {
                 fetchAd(it, CoreAdPlaceName.APP_REOPEN)
             }
         }
