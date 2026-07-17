@@ -102,6 +102,8 @@ data class NativeAdPlace(
     val backgroundRadius: Int?,
     val primaryTextColor: String?,
     val bodyTextColor: String?,
+    val adNotificationBackgroundColor: String?,
+    val adNotificationTextColor: String?,
     val isEnableFullScreenImmersive: Boolean?,
     val expiredTimeSecond: Int?,
     val hideTextSkipCountDown: Boolean?,

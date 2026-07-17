@@ -122,7 +122,7 @@ class NativeCollapsibleMediumCtaBottomTemplateView @JvmOverloads constructor(
         binding.nativeAdView.destroy()
     }
 
-    override fun applyStyles(styles: NativeTemplateStyle) {
+    override fun applyTemplateStyles(styles: NativeTemplateStyle) {
         styles.mainBackgroundColor?.let {
             binding.background.background = it
             binding.backgroundMini.background = it
@@ -208,6 +208,8 @@ class NativeCollapsibleMediumCtaBottomTemplateView @JvmOverloads constructor(
             binding.adNotificationView.setBackgroundResource(it)
             binding.adNotificationViewMini.setBackgroundResource(it)
         }
+
+        applyAdNotificationStyles(styles, binding.adNotificationView, binding.adNotificationViewMini)
 
         styles.primaryTextBackgroundColor?.let {
             binding.primary.background = it

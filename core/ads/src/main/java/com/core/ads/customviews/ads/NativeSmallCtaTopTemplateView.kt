@@ -95,7 +95,7 @@ class NativeSmallCtaTopTemplateView @JvmOverloads constructor(
         binding.nativeAdView.destroy()
     }
 
-    override fun applyStyles(styles: NativeTemplateStyle) {
+    override fun applyTemplateStyles(styles: NativeTemplateStyle) {
         styles.mainBackgroundColor?.let {
             binding.background.background = it
             binding.primary.background = it
@@ -154,6 +154,8 @@ class NativeSmallCtaTopTemplateView @JvmOverloads constructor(
         styles.backgroundAdsNotifyView?.let {
             binding.adNotificationView.setBackgroundResource(it)
         }
+
+        applyAdNotificationStyles(styles, binding.adNotificationView)
 
         styles.primaryTextBackgroundColor?.let {
             binding.primary.background = it

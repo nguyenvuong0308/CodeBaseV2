@@ -105,6 +105,8 @@ class BannerNativeContainerLayout @JvmOverloads constructor(
 
                     NativeTemplateSize.MediumCtaRight -> R.layout.gnt_medium_cta_right_shimmer
 
+                    NativeTemplateSize.MediumShortCtaBottom -> R.layout.gnt_medium_short_cta_bottom_template_view_shimmer
+
                     NativeTemplateSize.MediumCtaBottom -> R.layout.gnt_medium_cta_bottom_template_view_shimmer
 
                     NativeTemplateSize.MediumCtaRightTop -> R.layout.gnt_medium_cta_right_top_shimmer
@@ -253,6 +255,8 @@ class BannerNativeContainerLayout @JvmOverloads constructor(
             .withBackgroundResource(backgroundRes)
             .withMainBackgroundRadius(nativeAdPlace.backgroundRadius)
             .withBackgroundAdsNotifyView(backgroundAdsNotifyView)
+            .withAdNotificationBackgroundColor(nativeAdPlace.adNotificationBackgroundColor)
+            .withAdNotificationTextColor(nativeAdPlace.adNotificationTextColor)
             .withMediaBackgroundColor(nativeAdPlace.mediaBackgroundColor)
             .withIsEnableImmersive(nativeAdPlace.isEnableFullScreenImmersive)
             .withHideTextCountDown(nativeAdPlace.hideTextCountDown)
@@ -268,6 +272,8 @@ class BannerNativeContainerLayout @JvmOverloads constructor(
             NativeTemplateSize.SmallCtaBottom -> NativeSmallCtaBottomTemplateView(context)
 
             NativeTemplateSize.MediumCtaBottom -> NativeMediumCtaBottomTemplateView(context)
+
+            NativeTemplateSize.MediumShortCtaBottom -> NativeMediumShortCtaBottomTemplateView(context)
 
             NativeTemplateSize.MediumCtaTop -> NativeMediumCtaTopTemplateView(context)
 

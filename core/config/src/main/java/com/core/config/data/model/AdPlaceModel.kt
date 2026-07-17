@@ -81,6 +81,12 @@ internal data class AdPlaceModel(
     @Json(name = "body_text_color")
     val bodyTextColor: String?,
 
+    @Json(name = "ad_notification_background_color")
+    val adNotificationBackgroundColor: String?,
+
+    @Json(name = "ad_notification_text_color")
+    val adNotificationTextColor: String?,
+
     // For AppOpenAD
     @Json(name = "limit_show")
     val limitShow: Int?,

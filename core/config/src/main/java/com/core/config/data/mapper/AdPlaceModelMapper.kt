@@ -101,6 +101,8 @@ internal class AdPlaceModelMapper @Inject constructor(
                 backgroundColor = model.backgroundColor,
                 primaryTextColor = model.primaryTextColor,
                 bodyTextColor = model.bodyTextColor,
+                adNotificationBackgroundColor = model.adNotificationBackgroundColor,
+                adNotificationTextColor = model.adNotificationTextColor,
                 isEnableFullScreenImmersive = model.isEnableFullScreenImmersive,
                 isTrackingClick = isTrackingClick,
                 ctaTextColor = model.ctaTextColor,

@@ -121,6 +121,8 @@
     <!--background_color: màu nền-->
     <!--primary_text_color: màu text primary-->
     <!--body_text_color: màu text body-->
+    <!--ad_notification_background_color: mau nen label Ad-->
+    <!--ad_notification_text_color: mau text label Ad-->
     <!--background_cta: -->
     <!--cta_text_color: -->
     <!--border_color: -->

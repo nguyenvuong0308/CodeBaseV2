@@ -172,7 +172,7 @@ class NativeInterstitialV2View @JvmOverloads constructor(
         resumeCloseCountDown()
     }
 
-    override fun applyStyles(styles: NativeTemplateStyle) {
+    override fun applyTemplateStyles(styles: NativeTemplateStyle) {
         runCatching {
             styles.mainBackgroundColor?.let {
                 binding.background.background = it
@@ -262,6 +262,8 @@ class NativeInterstitialV2View @JvmOverloads constructor(
             styles.backgroundAdsNotifyView?.let {
                 binding.adNotificationView.setBackgroundResource(it)
             }
+
+            applyAdNotificationStyles(styles, binding.adNotificationView)
 
             styles.primaryTextBackgroundColor?.let {
                 binding.primary.background = it

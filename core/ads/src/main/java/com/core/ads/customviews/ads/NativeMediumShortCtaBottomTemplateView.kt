@@ -1,29 +1,23 @@
 package com.core.ads.customviews.ads
 
 import android.content.Context
-import android.content.res.ColorStateList
 import android.graphics.drawable.GradientDrawable
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.LayoutInflater
 import androidx.core.graphics.toColorInt
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.request.RequestOptions
-import com.core.ads.databinding.GntMediumCtaRightTopBinding
+import com.core.ads.databinding.GntMediumCtaBottomTemplateViewV2Binding
 import com.core.ads.extensions.updateBackgroundColor
 import com.core.ads.extensions.updateRadius
-import com.core.ads.glidetransformation.RoundedCornersTransformation
 import com.core.dimens.R
-import com.core.utilities.dpToPx
 import com.google.android.gms.ads.nativead.NativeAd
 
-class NativeMediumCtaRightTopTemplateView @JvmOverloads constructor(
+class NativeMediumShortCtaBottomTemplateView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : BaseNativeTemplateView(context, attrs, defStyleAttr) {
 
-    private val binding: GntMediumCtaRightTopBinding by lazy {
-        GntMediumCtaRightTopBinding.inflate(LayoutInflater.from(context), this)
+    private val binding: GntMediumCtaBottomTemplateViewV2Binding by lazy {
+        GntMediumCtaBottomTemplateViewV2Binding.inflate(LayoutInflater.from(context), this)
     }
 
     init {
@@ -40,25 +34,6 @@ class NativeMediumCtaRightTopTemplateView @JvmOverloads constructor(
 
         binding.primary.text = nativeAd.headline
         binding.cta.text = nativeAd.callToAction
-
-        binding.icon.visibility = GONE
-        nativeAd.icon?.let {
-            binding.icon.visibility = VISIBLE
-            Glide.with(this)
-                .load(it.drawable)
-                .skipMemoryCache(true)
-                .diskCacheStrategy(DiskCacheStrategy.NONE)
-                .apply(
-                    RequestOptions.bitmapTransform(
-                        RoundedCornersTransformation(
-                            context.resources.getDimensionPixelSize(
-                                R.dimen._8dp
-                            ), 0, RoundedCornersTransformation.CornerType.ALL
-                        )
-                    )
-                )
-                .into(binding.icon)
-        }
 
         nativeAd.body?.let {
             binding.body.text = it
@@ -78,6 +53,7 @@ class NativeMediumCtaRightTopTemplateView @JvmOverloads constructor(
 //                }
 //            }
 //        }
+
         binding.nativeAdView.setNativeAd(nativeAd)
     }
 
@@ -137,8 +113,8 @@ class NativeMediumCtaRightTopTemplateView @JvmOverloads constructor(
             binding.body.textSize = tertiaryTextSize
         }
 
-         styles.callToActionBackgroundColor?.let {
-             binding.layoutCta.updateBackgroundColor(it)
+        styles.callToActionBackgroundColor?.let {
+            binding.layoutCta.updateBackgroundColor(it)
         }
 
         styles.callToActionRadius?.let {
@@ -146,7 +122,11 @@ class NativeMediumCtaRightTopTemplateView @JvmOverloads constructor(
         }
 
         styles.borderColor?.let {
-            (binding.nativeAdView.background as GradientDrawable).setStroke(resources.getDimensionPixelSize(R.dimen._1dp), it.toColorInt())
+            (binding.nativeAdView.background as GradientDrawable).setStroke(
+                resources.getDimensionPixelSize(
+                    R.dimen._1dp
+                ), it.toColorInt()
+            )
         }
 
         styles.backgroundColor?.let {

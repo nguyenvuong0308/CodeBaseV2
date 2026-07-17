@@ -16,6 +16,7 @@ sealed class NativeTemplateSize {
 
                 Medium.key -> Medium
                 MediumCtaTop.key -> MediumCtaTop
+                MediumShortCtaBottom.key -> MediumShortCtaBottom
                 MediumCtaRightTop.key -> MediumCtaRightTop
                 MediumCollapsibleCtaBottom.key -> MediumCollapsibleCtaBottom
                 MediumCtaRight.key -> MediumCtaRight
@@ -70,6 +71,10 @@ sealed class NativeTemplateSize {
 
     object MediumCtaTop : NativeTemplateSize() {
         override val key = "medium_cta_top"
+    }
+
+    object MediumShortCtaBottom : NativeTemplateSize() {
+        override val key = "medium_short_cta_bottom"
     }
 
     object MediumCtaBottom : NativeTemplateSize() {
