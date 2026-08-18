@@ -2105,7 +2105,14 @@ class AdmobManager @Inject constructor(
         isNeedUpdateAdPlace: Boolean
     ): AdHolder {
         var adHolder = adHolderFullScreenMap[adPlace.placeName]
-        if (adHolder == null) {
+        val isHolderTypeChanged = when (adPlace.adType) {
+            AdType.Interstitial -> adHolder !is InterstitialAdHolder
+            AdType.RewardedInterstitial -> adHolder !is RewardedInterstitialAdHolder
+            AdType.RewardedVideo -> adHolder !is RewardedAdHolder
+            else -> adHolder !is RewardedAdHolder
+        }
+        if (adHolder == null || isHolderTypeChanged) {
+            adHolder?.reset()
             adHolder = when (adPlace.adType) {
                 AdType.Interstitial -> InterstitialAdHolder(adPlace = adPlace)
                 AdType.RewardedInterstitial -> RewardedInterstitialAdHolder(adPlace = adPlace)
